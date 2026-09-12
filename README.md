@@ -45,37 +45,31 @@ The dashboard uses one visualization color only: blue. Dates use MM/YY such as 0
 
 ## Dashboard Preview
 
-The visuals below provide a quick view of the project's key AML alert-quality, QA, and rule-performance findings.
+The four visuals below come directly from the approved executive dashboard and give a quick view of the project's AML alert-quality, operational, and QA findings.
 
 ### KPI Scorecard
 
 ![AML Alert Quality KPI Scorecard](images/01_kpi_scorecard.png)
 
-The KPI scorecard summarizes the core operating measures used throughout the project: Total Alerts, QA Reviewed, QA Pass Rate, False Positive Rate, Escalation Rate, and SAR Conversion.
+**What it represents:** The KPI scorecard provides an at-a-glance view of the AML monitoring program's workload, alert quality, investigation outcomes, QA coverage, and review efficiency. Total Alerts measures monitoring volume; False Positives shows how many alerts did not result in actionable concerns; Escalated Alerts and SAR Filed show how alerts progress into higher-risk investigative outcomes; QA Reviews measures quality-control coverage; and Average Review Time indicates analyst effort and operational efficiency.
 
 ### Executive Dashboard
 
 ![AML Alert Quality Executive Dashboard](images/02_executive_dashboard.png)
 
-The executive dashboard brings together alert trends, rule efficiency, QA quality, alert aging, escalation behavior, and rule-review priorities in one view.
+**What it represents:** The executive dashboard brings the major AML monitoring and QA indicators into one management view. It shows how alert volumes and outcomes change over time, how alerts are ultimately dispositioned, which monitoring rules generate the most alerts, when alert activity is concentrated, how review time relates to alert risk, and how QA results vary across analysts. Together, these views help identify operational pressure, rule-performance issues, investigation patterns, and potential areas for quality improvement.
 
-### Featured Dashboard Visual 1 — Alert, Escalation & SAR Trend
+### Alerts, Escalations & SAR Trend
 
-![Alert Escalation and SAR Trend](images/03_alert_escalation_sar_trend.png)
+![Alerts Escalations and SAR Trend](images/03_alerts_escalations_sar_trend.png)
 
-Shows how alert volume, escalations, and SAR-related outcomes change over time, making it easier to identify shifts in transaction-monitoring activity and downstream investigative workload.
+**What it represents:** This trend compares monthly Total Alerts, Escalated Alerts, and SAR Filed outcomes. It helps show whether increases in monitoring volume are also producing more escalations and SAR filings. A widening or narrowing gap between the three measures can help analysts assess how alert growth is translating into downstream investigative activity and higher-risk outcomes.
 
-### Featured Dashboard Visual 2 — False Positive Rate by Rule
+### QA Results by Analyst
 
-![False Positive Rate by Rule](images/04_false_positive_rate_by_rule.png)
+![QA Results by Analyst](images/04_qa_results_by_analyst.png)
 
-Compares false-positive performance across transaction-monitoring rules to identify scenarios generating a larger share of non-actionable alerts.
-
-### Featured Dashboard Visual 3 — QA Pass Rate by Rule
-
-![QA Pass Rate by Rule](images/05_qa_pass_rate_by_rule.png)
-
-Compares QA performance across monitoring rules to highlight areas where investigation quality, documentation, or disposition consistency may require closer review.
+**What it represents:** This 100% stacked bar chart compares QA Pass and Fail percentages across analysts. It highlights differences in investigation and documentation quality and makes it easier to identify analysts with stronger or weaker QA outcomes. The view can support targeted coaching, consistency reviews, and additional quality-control attention where failure rates are comparatively high.
 
 
 ## Disclaimer
