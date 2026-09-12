@@ -1,0 +1,8 @@
+metric,value
+AML Alerts,3600.0
+Monitoring Rules,8.0
+QA Reviews,900.0
+QA Pass Rate,0.8667
+False Positive Rate,0.5481
+Escalation Rate,0.2956
+SAR Conversion,0.1382

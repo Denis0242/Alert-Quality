@@ -1,0 +1,901 @@
+qa_review_id,alert_id,alert_date,rule_id,rule_name,analyst_id,qa_reviewer_id,risk_score,review_minutes,alert_age_days,disposition,qa_result,qa_issue
+QA0001,ALT01830,2026-06-27,R006,P2P Funnel Activity,ANL11,ANL12,71.0,54,25,Close - False Positive,Pass,None
+QA0002,ALT02072,2026-01-20,R006,P2P Funnel Activity,ANL07,ANL12,53.0,51,12,Close - Explained Activity,Pass,None
+QA0003,ALT02817,2026-07-27,R001,Structuring / Cash Activity,ANL03,ANL12,64.0,45,1,Close - False Positive,Pass,None
+QA0004,ALT02810,2026-05-10,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,39.0,41,7,Close - False Positive,Pass,None
+QA0005,ALT00626,2026-02-06,R004,Unusual Volume Increase,ANL06,ANL12,39.0,43,10,Close - False Positive,Fail,Incomplete Transaction Review
+QA0006,ALT00253,2026-02-16,R004,Unusual Volume Increase,ANL04,ANL12,60.0,31,11,Close - Explained Activity,Pass,None
+QA0007,ALT01215,2026-06-07,R005,High-Value Wire,ANL12,ANL12,55.0,30,4,Close - Explained Activity,Pass,None
+QA0008,ALT02350,2026-07-08,R005,High-Value Wire,ANL04,ANL12,35.0,47,9,Close - False Positive,Pass,None
+QA0009,ALT02397,2026-03-16,R001,Structuring / Cash Activity,ANL01,ANL12,71.0,35,11,Close - Explained Activity,Pass,None
+QA0010,ALT00538,2026-04-13,R002,High-Risk Jurisdiction Wire,ANL02,ANL12,47.0,32,16,Close - False Positive,Pass,None
+QA0011,ALT02784,2026-03-15,R005,High-Value Wire,ANL08,ANL12,70.0,42,6,Close - False Positive,Fail,KYC Context Missing
+QA0012,ALT03156,2026-05-05,R003,Rapid Movement of Funds,ANL05,ANL12,64.0,37,13,Close - False Positive,Pass,None
+QA0013,ALT00247,2026-06-14,R004,Unusual Volume Increase,ANL09,ANL12,85.0,43,7,Escalate to Case,Pass,None
+QA0014,ALT01431,2026-07-18,R004,Unusual Volume Increase,ANL02,ANL12,70.0,35,1,Close - False Positive,Pass,None
+QA0015,ALT00060,2026-02-28,R003,Rapid Movement of Funds,ANL01,ANL12,52.0,33,2,Close - False Positive,Pass,None
+QA0016,ALT02423,2026-09-23,R005,High-Value Wire,ANL02,ANL12,64.0,45,28,Escalate to Case,Pass,None
+QA0017,ALT00216,2026-04-16,R004,Unusual Volume Increase,ANL07,ANL12,46.0,44,11,Close - False Positive,Pass,None
+QA0018,ALT02440,2026-01-27,R006,P2P Funnel Activity,ANL08,ANL12,82.0,40,3,Escalate to Case,Pass,None
+QA0019,ALT01959,2026-04-12,R001,Structuring / Cash Activity,ANL08,ANL12,60.0,41,12,Close - False Positive,Pass,None
+QA0020,ALT00742,2026-05-14,R007,Cash Intensive Business,ANL12,ANL12,71.0,70,5,Close - False Positive,Pass,None
+QA0021,ALT01243,2026-05-12,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,48.0,47,7,Close - Explained Activity,Fail,Insufficient Narrative
+QA0022,ALT03377,2026-07-19,R003,Rapid Movement of Funds,ANL05,ANL12,62.0,32,16,Escalate to Case,Fail,Insufficient Narrative
+QA0023,ALT03488,2026-02-06,R005,High-Value Wire,ANL07,ANL12,32.0,35,5,Close - Explained Activity,Pass,None
+QA0024,ALT01769,2026-08-08,R008,Dormant Account Reactivation,ANL04,ANL12,70.0,29,13,Close - False Positive,Pass,None
+QA0025,ALT02401,2026-08-06,R008,Dormant Account Reactivation,ANL08,ANL12,52.0,42,13,Close - False Positive,Pass,None
+QA0026,ALT02652,2026-06-18,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,81.0,39,6,Escalate to Case,Pass,None
+QA0027,ALT01767,2026-06-25,R006,P2P Funnel Activity,ANL11,ANL12,56.0,23,5,Close - False Positive,Pass,None
+QA0028,ALT01225,2026-08-30,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,89.0,19,2,Close - False Positive,Pass,None
+QA0029,ALT03298,2026-08-02,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,64.0,30,6,Close - False Positive,Pass,None
+QA0030,ALT03084,2026-06-09,R003,Rapid Movement of Funds,ANL01,ANL12,54.0,28,2,Close - Explained Activity,Pass,None
+QA0031,ALT01533,2026-05-31,R006,P2P Funnel Activity,ANL04,ANL12,63.0,46,12,Escalate to Case,Fail,Insufficient Narrative
+QA0032,ALT01570,2026-08-13,R003,Rapid Movement of Funds,ANL03,ANL12,47.0,59,5,Escalate to Case,Pass,None
+QA0033,ALT00803,2026-06-06,R001,Structuring / Cash Activity,ANL07,ANL12,67.0,18,13,Close - False Positive,Pass,None
+QA0034,ALT00223,2026-04-07,R008,Dormant Account Reactivation,ANL02,ANL12,71.0,40,4,Escalate to Case,Pass,None
+QA0035,ALT02471,2026-09-22,R005,High-Value Wire,ANL11,ANL12,79.0,34,9,Escalate to Case,Pass,None
+QA0036,ALT00597,2026-08-22,R005,High-Value Wire,ANL05,ANL12,34.0,51,11,Escalate to Case,Pass,None
+QA0037,ALT01917,2026-06-06,R008,Dormant Account Reactivation,ANL11,ANL12,69.0,28,7,Close - False Positive,Pass,None
+QA0038,ALT03517,2026-01-26,R004,Unusual Volume Increase,ANL09,ANL12,49.0,38,1,Close - False Positive,Fail,Escalation Rationale Weak
+QA0039,ALT03001,2026-06-07,R004,Unusual Volume Increase,ANL02,ANL12,86.0,38,5,Close - False Positive,Pass,None
+QA0040,ALT00534,2026-03-16,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,85.0,42,4,Close - Explained Activity,Pass,None
+QA0041,ALT01474,2026-08-08,R003,Rapid Movement of Funds,ANL09,ANL12,65.0,19,9,Escalate to Case,Pass,None
+QA0042,ALT01392,2026-08-31,R008,Dormant Account Reactivation,ANL11,ANL12,49.0,38,2,Close - Explained Activity,Pass,None
+QA0043,ALT01674,2026-03-23,R005,High-Value Wire,ANL06,ANL12,61.0,34,8,Close - False Positive,Pass,None
+QA0044,ALT00077,2026-04-12,R001,Structuring / Cash Activity,ANL10,ANL12,61.0,38,6,Close - False Positive,Pass,None
+QA0045,ALT00842,2026-04-13,R001,Structuring / Cash Activity,ANL08,ANL12,92.0,59,14,Escalate to Case,Pass,None
+QA0046,ALT01854,2026-05-06,R003,Rapid Movement of Funds,ANL12,ANL12,52.0,25,9,Close - Explained Activity,Pass,None
+QA0047,ALT02960,2026-01-05,R004,Unusual Volume Increase,ANL01,ANL12,34.0,34,10,Close - False Positive,Pass,None
+QA0048,ALT01004,2026-07-04,R003,Rapid Movement of Funds,ANL12,ANL12,59.0,27,13,Close - False Positive,Pass,None
+QA0049,ALT02560,2026-05-02,R004,Unusual Volume Increase,ANL08,ANL12,65.0,33,7,Close - False Positive,Pass,None
+QA0050,ALT00650,2026-04-19,R002,High-Risk Jurisdiction Wire,ANL01,ANL12,76.0,28,6,Close - False Positive,Pass,None
+QA0051,ALT00135,2026-06-11,R008,Dormant Account Reactivation,ANL01,ANL12,71.0,39,15,Close - False Positive,Pass,None
+QA0052,ALT00455,2026-03-08,R001,Structuring / Cash Activity,ANL10,ANL12,70.0,29,4,Close - False Positive,Pass,None
+QA0053,ALT01493,2026-08-03,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,70.0,46,16,Close - False Positive,Pass,None
+QA0054,ALT02771,2026-09-22,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,55.0,33,8,Close - False Positive,Pass,None
+QA0055,ALT00299,2026-09-19,R005,High-Value Wire,ANL05,ANL12,73.0,31,11,Escalate to Case,Pass,None
+QA0056,ALT00897,2026-03-18,R001,Structuring / Cash Activity,ANL08,ANL12,42.0,21,2,Close - False Positive,Pass,None
+QA0057,ALT01409,2026-07-21,R003,Rapid Movement of Funds,ANL02,ANL12,73.0,46,10,Close - Explained Activity,Pass,None
+QA0058,ALT03331,2026-04-13,R004,Unusual Volume Increase,ANL11,ANL12,84.0,27,1,Close - False Positive,Pass,None
+QA0059,ALT01861,2026-08-04,R003,Rapid Movement of Funds,ANL03,ANL12,48.0,46,11,Close - False Positive,Pass,None
+QA0060,ALT01223,2026-02-19,R004,Unusual Volume Increase,ANL11,ANL12,38.0,46,8,Escalate to Case,Pass,None
+QA0061,ALT02799,2026-09-14,R004,Unusual Volume Increase,ANL09,ANL12,46.0,55,7,Close - False Positive,Pass,None
+QA0062,ALT03249,2026-09-30,R008,Dormant Account Reactivation,ANL03,ANL12,49.0,61,22,Close - False Positive,Fail,KYC Context Missing
+QA0063,ALT01905,2026-03-07,R001,Structuring / Cash Activity,ANL01,ANL12,53.0,41,9,Close - Explained Activity,Pass,None
+QA0064,ALT02968,2026-02-26,R004,Unusual Volume Increase,ANL10,ANL12,50.0,40,12,Close - Explained Activity,Pass,None
+QA0065,ALT03480,2026-02-05,R007,Cash Intensive Business,ANL06,ANL12,45.0,35,13,Close - False Positive,Pass,None
+QA0066,ALT01718,2026-04-06,R003,Rapid Movement of Funds,ANL05,ANL12,40.0,47,4,Close - False Positive,Fail,Insufficient Narrative
+QA0067,ALT01160,2026-09-29,R005,High-Value Wire,ANL10,ANL12,58.0,19,9,Escalate to Case,Pass,None
+QA0068,ALT00515,2026-05-30,R006,P2P Funnel Activity,ANL12,ANL12,46.0,36,7,Close - False Positive,Pass,None
+QA0069,ALT00056,2026-03-20,R005,High-Value Wire,ANL01,ANL12,48.0,39,13,Escalate to Case,Pass,None
+QA0070,ALT00730,2026-07-12,R006,P2P Funnel Activity,ANL11,ANL12,64.0,42,7,Close - False Positive,Pass,None
+QA0071,ALT00817,2026-07-23,R001,Structuring / Cash Activity,ANL06,ANL12,27.0,40,8,Escalate to Case,Pass,None
+QA0072,ALT02683,2026-01-10,R004,Unusual Volume Increase,ANL11,ANL12,67.0,49,8,Close - False Positive,Pass,None
+QA0073,ALT01584,2026-03-05,R001,Structuring / Cash Activity,ANL11,ANL12,28.0,40,7,Close - False Positive,Pass,None
+QA0074,ALT03165,2026-08-30,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,41.0,33,12,Close - False Positive,Pass,None
+QA0075,ALT00445,2026-01-27,R003,Rapid Movement of Funds,ANL05,ANL12,67.0,17,7,Close - False Positive,Pass,None
+QA0076,ALT03128,2026-06-28,R005,High-Value Wire,ANL08,ANL12,43.0,33,4,Escalate to Case,Pass,None
+QA0077,ALT03263,2026-06-27,R008,Dormant Account Reactivation,ANL03,ANL12,72.0,47,17,Escalate to Case,Fail,Incomplete Transaction Review
+QA0078,ALT02661,2026-08-02,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,35.0,27,6,Close - False Positive,Pass,None
+QA0079,ALT00423,2026-06-02,R005,High-Value Wire,ANL12,ANL12,74.0,32,34,Close - Explained Activity,Pass,None
+QA0080,ALT01074,2026-08-16,R001,Structuring / Cash Activity,ANL01,ANL12,61.0,18,13,Close - False Positive,Fail,Insufficient Narrative
+QA0081,ALT00705,2026-04-13,R006,P2P Funnel Activity,ANL10,ANL12,52.0,31,5,Close - False Positive,Pass,None
+QA0082,ALT02554,2026-01-23,R002,High-Risk Jurisdiction Wire,ANL09,ANL12,30.0,56,12,Escalate to Case,Pass,None
+QA0083,ALT02462,2026-03-16,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,37.0,60,16,Close - Explained Activity,Pass,None
+QA0084,ALT00635,2026-01-23,R006,P2P Funnel Activity,ANL08,ANL12,36.0,37,1,Close - False Positive,Pass,None
+QA0085,ALT03004,2026-02-09,R006,P2P Funnel Activity,ANL10,ANL12,59.0,51,3,Close - False Positive,Pass,None
+QA0086,ALT03481,2026-03-11,R004,Unusual Volume Increase,ANL05,ANL12,97.0,45,11,Close - Explained Activity,Pass,None
+QA0087,ALT01890,2026-06-20,R003,Rapid Movement of Funds,ANL01,ANL12,91.0,60,8,Close - Explained Activity,Pass,None
+QA0088,ALT03199,2026-04-16,R004,Unusual Volume Increase,ANL02,ANL12,68.0,25,5,Close - False Positive,Pass,None
+QA0089,ALT00816,2026-05-17,R004,Unusual Volume Increase,ANL11,ANL12,31.0,12,12,Close - False Positive,Pass,None
+QA0090,ALT01254,2026-01-04,R003,Rapid Movement of Funds,ANL08,ANL12,38.0,24,10,Close - False Positive,Pass,None
+QA0091,ALT00827,2026-03-09,R006,P2P Funnel Activity,ANL06,ANL12,57.0,34,9,Close - False Positive,Pass,None
+QA0092,ALT01673,2026-07-04,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,64.0,64,7,Close - Explained Activity,Pass,None
+QA0093,ALT02142,2026-02-14,R001,Structuring / Cash Activity,ANL11,ANL12,44.0,52,6,Close - False Positive,Pass,None
+QA0094,ALT00772,2026-04-07,R003,Rapid Movement of Funds,ANL11,ANL12,90.0,28,7,Close - False Positive,Fail,Insufficient Narrative
+QA0095,ALT00306,2026-05-21,R006,P2P Funnel Activity,ANL09,ANL12,68.0,87,6,Escalate to Case,Pass,None
+QA0096,ALT02693,2026-08-04,R008,Dormant Account Reactivation,ANL11,ANL12,56.0,35,16,Close - Explained Activity,Pass,None
+QA0097,ALT01679,2026-07-01,R003,Rapid Movement of Funds,ANL09,ANL12,47.0,32,9,Close - False Positive,Pass,None
+QA0098,ALT02925,2026-07-09,R003,Rapid Movement of Funds,ANL10,ANL12,35.0,19,1,Close - Explained Activity,Pass,None
+QA0099,ALT02198,2026-05-27,R004,Unusual Volume Increase,ANL08,ANL12,48.0,43,4,Close - False Positive,Pass,None
+QA0100,ALT03522,2026-09-22,R001,Structuring / Cash Activity,ANL09,ANL12,47.0,52,6,Close - False Positive,Fail,Disposition Not Supported
+QA0101,ALT03595,2026-05-13,R006,P2P Funnel Activity,ANL06,ANL12,6.0,42,5,Close - False Positive,Pass,None
+QA0102,ALT02617,2026-01-04,R004,Unusual Volume Increase,ANL05,ANL12,66.0,45,3,Close - False Positive,Pass,None
+QA0103,ALT02690,2026-04-19,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,69.0,52,24,Close - False Positive,Pass,None
+QA0104,ALT01140,2026-05-16,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,100.0,39,6,Close - Explained Activity,Pass,None
+QA0105,ALT01633,2026-01-21,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,73.0,39,28,Escalate to Case,Pass,None
+QA0106,ALT01916,2026-03-30,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,89.0,44,7,Escalate to Case,Pass,None
+QA0107,ALT02565,2026-05-14,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,63.0,59,3,Escalate to Case,Pass,None
+QA0108,ALT00916,2026-01-08,R003,Rapid Movement of Funds,ANL04,ANL12,49.0,48,4,Close - False Positive,Pass,None
+QA0109,ALT02603,2026-09-24,R006,P2P Funnel Activity,ANL03,ANL12,60.0,35,7,Close - False Positive,Pass,None
+QA0110,ALT02521,2026-03-18,R006,P2P Funnel Activity,ANL01,ANL12,28.0,36,7,Close - False Positive,Pass,None
+QA0111,ALT00062,2026-01-30,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,41.0,33,7,Close - Explained Activity,Pass,None
+QA0112,ALT02531,2026-06-24,R003,Rapid Movement of Funds,ANL06,ANL12,57.0,62,10,Close - False Positive,Pass,None
+QA0113,ALT01218,2026-07-10,R001,Structuring / Cash Activity,ANL03,ANL12,46.0,43,16,Close - False Positive,Pass,None
+QA0114,ALT00907,2026-03-10,R006,P2P Funnel Activity,ANL08,ANL12,51.0,17,5,Close - False Positive,Pass,None
+QA0115,ALT03104,2026-04-02,R001,Structuring / Cash Activity,ANL10,ANL12,83.0,42,2,Close - False Positive,Pass,None
+QA0116,ALT03429,2026-08-15,R003,Rapid Movement of Funds,ANL04,ANL12,24.0,48,7,Close - False Positive,Pass,None
+QA0117,ALT01862,2026-01-15,R004,Unusual Volume Increase,ANL11,ANL12,95.0,58,11,Escalate to Case,Pass,None
+QA0118,ALT02952,2026-06-29,R001,Structuring / Cash Activity,ANL03,ANL12,31.0,41,10,Escalate to Case,Pass,None
+QA0119,ALT00153,2026-05-11,R005,High-Value Wire,ANL09,ANL12,96.0,32,17,Escalate to Case,Pass,None
+QA0120,ALT03226,2026-02-26,R002,High-Risk Jurisdiction Wire,ANL09,ANL12,71.0,56,2,Escalate to Case,Pass,None
+QA0121,ALT00294,2026-02-23,R001,Structuring / Cash Activity,ANL06,ANL12,65.0,54,18,Close - False Positive,Pass,None
+QA0122,ALT01550,2026-07-28,R008,Dormant Account Reactivation,ANL05,ANL12,34.0,45,13,Close - False Positive,Pass,None
+QA0123,ALT00523,2026-01-02,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,55.0,49,15,Escalate to Case,Pass,None
+QA0124,ALT01463,2026-06-11,R005,High-Value Wire,ANL04,ANL12,69.0,54,14,Escalate to Case,Fail,Insufficient Narrative
+QA0125,ALT01899,2026-05-22,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,56.0,38,5,Escalate to Case,Pass,None
+QA0126,ALT01715,2026-09-23,R003,Rapid Movement of Funds,ANL10,ANL12,100.0,56,3,Close - False Positive,Pass,None
+QA0127,ALT03029,2026-03-09,R003,Rapid Movement of Funds,ANL08,ANL12,65.0,26,16,Close - Explained Activity,Pass,None
+QA0128,ALT00431,2026-05-03,R001,Structuring / Cash Activity,ANL07,ANL12,31.0,39,19,Close - Explained Activity,Pass,None
+QA0129,ALT02298,2026-06-09,R003,Rapid Movement of Funds,ANL06,ANL12,58.0,8,12,Close - False Positive,Pass,None
+QA0130,ALT02228,2026-04-13,R004,Unusual Volume Increase,ANL02,ANL12,54.0,36,16,Close - False Positive,Pass,None
+QA0131,ALT01362,2026-09-08,R005,High-Value Wire,ANL01,ANL12,68.0,32,16,Close - False Positive,Pass,None
+QA0132,ALT01150,2026-06-25,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,23.0,18,6,Close - False Positive,Fail,Disposition Not Supported
+QA0133,ALT01479,2026-08-24,R001,Structuring / Cash Activity,ANL05,ANL12,21.0,55,14,Escalate to Case,Pass,None
+QA0134,ALT03519,2026-04-19,R008,Dormant Account Reactivation,ANL05,ANL12,64.0,31,12,Close - False Positive,Fail,Incomplete Transaction Review
+QA0135,ALT00933,2026-03-23,R001,Structuring / Cash Activity,ANL09,ANL12,70.0,40,14,Close - False Positive,Fail,KYC Context Missing
+QA0136,ALT02828,2026-07-01,R003,Rapid Movement of Funds,ANL03,ANL12,48.0,36,13,Escalate to Case,Pass,None
+QA0137,ALT02211,2026-03-19,R004,Unusual Volume Increase,ANL04,ANL12,63.0,34,4,Close - False Positive,Pass,None
+QA0138,ALT00793,2026-07-05,R002,High-Risk Jurisdiction Wire,ANL09,ANL12,62.0,34,18,Close - Explained Activity,Pass,None
+QA0139,ALT01048,2026-06-28,R005,High-Value Wire,ANL07,ANL12,64.0,24,3,Escalate to Case,Pass,None
+QA0140,ALT02768,2026-02-05,R004,Unusual Volume Increase,ANL04,ANL12,65.0,29,15,Close - False Positive,Pass,None
+QA0141,ALT03501,2026-09-22,R005,High-Value Wire,ANL01,ANL12,48.0,35,5,Close - Explained Activity,Pass,None
+QA0142,ALT01626,2026-07-13,R006,P2P Funnel Activity,ANL10,ANL12,48.0,34,7,Escalate to Case,Pass,None
+QA0143,ALT03457,2026-03-03,R003,Rapid Movement of Funds,ANL12,ANL12,51.0,39,16,Close - Explained Activity,Pass,None
+QA0144,ALT01646,2026-01-18,R006,P2P Funnel Activity,ANL12,ANL12,86.0,29,18,Close - False Positive,Pass,None
+QA0145,ALT03220,2026-04-02,R001,Structuring / Cash Activity,ANL03,ANL12,71.0,17,15,Close - False Positive,Pass,None
+QA0146,ALT02474,2026-07-21,R007,Cash Intensive Business,ANL09,ANL12,48.0,49,9,Close - Explained Activity,Fail,Escalation Rationale Weak
+QA0147,ALT03105,2026-01-03,R005,High-Value Wire,ANL06,ANL12,29.0,43,2,Close - False Positive,Pass,None
+QA0148,ALT02712,2026-08-29,R004,Unusual Volume Increase,ANL03,ANL12,55.0,19,3,Close - False Positive,Pass,None
+QA0149,ALT00864,2026-01-27,R004,Unusual Volume Increase,ANL05,ANL12,47.0,54,10,Close - False Positive,Pass,None
+QA0150,ALT00762,2026-07-05,R003,Rapid Movement of Funds,ANL02,ANL12,69.0,9,7,Escalate to Case,Fail,Incomplete Transaction Review
+QA0151,ALT02543,2026-08-18,R004,Unusual Volume Increase,ANL10,ANL12,68.0,86,14,Escalate to Case,Fail,Escalation Rationale Weak
+QA0152,ALT02166,2026-09-16,R003,Rapid Movement of Funds,ANL11,ANL12,37.0,40,1,Close - False Positive,Pass,None
+QA0153,ALT03230,2026-05-19,R003,Rapid Movement of Funds,ANL02,ANL12,34.0,54,6,Close - Explained Activity,Pass,None
+QA0154,ALT03152,2026-09-23,R003,Rapid Movement of Funds,ANL03,ANL12,81.0,48,11,Close - Explained Activity,Pass,None
+QA0155,ALT00964,2026-07-05,R008,Dormant Account Reactivation,ANL11,ANL12,65.0,58,8,Close - False Positive,Pass,None
+QA0156,ALT02102,2026-09-15,R003,Rapid Movement of Funds,ANL12,ANL12,40.0,16,17,Close - False Positive,Pass,None
+QA0157,ALT00103,2026-06-23,R005,High-Value Wire,ANL01,ANL12,94.0,14,10,Close - False Positive,Pass,None
+QA0158,ALT00226,2026-04-11,R005,High-Value Wire,ANL03,ANL12,81.0,37,6,Close - False Positive,Pass,None
+QA0159,ALT00390,2026-04-16,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,61.0,13,16,Escalate to Case,Pass,None
+QA0160,ALT01380,2026-05-05,R003,Rapid Movement of Funds,ANL11,ANL12,78.0,50,26,Close - Explained Activity,Pass,None
+QA0161,ALT02241,2026-01-01,R004,Unusual Volume Increase,ANL07,ANL12,42.0,56,7,Close - False Positive,Pass,None
+QA0162,ALT00718,2026-02-23,R003,Rapid Movement of Funds,ANL02,ANL12,28.0,44,2,Close - False Positive,Pass,None
+QA0163,ALT01751,2026-08-15,R007,Cash Intensive Business,ANL06,ANL12,26.0,41,17,Close - False Positive,Pass,None
+QA0164,ALT02568,2026-05-03,R004,Unusual Volume Increase,ANL04,ANL12,41.0,41,6,Close - False Positive,Fail,Disposition Not Supported
+QA0165,ALT00678,2026-08-24,R008,Dormant Account Reactivation,ANL06,ANL12,60.0,34,9,Escalate to Case,Pass,None
+QA0166,ALT03465,2026-07-15,R006,P2P Funnel Activity,ANL09,ANL12,64.0,48,27,Escalate to Case,Pass,None
+QA0167,ALT00882,2026-05-27,R005,High-Value Wire,ANL03,ANL12,66.0,42,14,Escalate to Case,Pass,None
+QA0168,ALT01946,2026-02-26,R008,Dormant Account Reactivation,ANL11,ANL12,41.0,32,7,Close - Explained Activity,Pass,None
+QA0169,ALT02129,2026-02-17,R005,High-Value Wire,ANL04,ANL12,63.0,23,2,Escalate to Case,Pass,None
+QA0170,ALT01969,2026-06-08,R008,Dormant Account Reactivation,ANL02,ANL12,41.0,44,14,Escalate to Case,Pass,None
+QA0171,ALT00939,2026-09-14,R006,P2P Funnel Activity,ANL10,ANL12,57.0,34,14,Close - False Positive,Pass,None
+QA0172,ALT03035,2026-08-24,R003,Rapid Movement of Funds,ANL10,ANL12,55.0,30,9,Close - False Positive,Pass,None
+QA0173,ALT00912,2026-07-04,R001,Structuring / Cash Activity,ANL04,ANL12,80.0,57,20,Close - False Positive,Pass,None
+QA0174,ALT01188,2026-06-15,R002,High-Risk Jurisdiction Wire,ANL09,ANL12,56.0,45,3,Close - False Positive,Pass,None
+QA0175,ALT01381,2026-06-02,R003,Rapid Movement of Funds,ANL03,ANL12,50.0,35,7,Close - Explained Activity,Pass,None
+QA0176,ALT02504,2026-01-19,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,39.0,14,7,Close - Explained Activity,Pass,None
+QA0177,ALT02368,2026-05-16,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,53.0,35,9,Close - False Positive,Pass,None
+QA0178,ALT03145,2026-07-06,R004,Unusual Volume Increase,ANL07,ANL12,72.0,42,3,Escalate to Case,Fail,Insufficient Narrative
+QA0179,ALT03577,2026-01-27,R005,High-Value Wire,ANL05,ANL12,15.0,45,14,Escalate to Case,Fail,Incomplete Transaction Review
+QA0180,ALT02694,2026-06-14,R003,Rapid Movement of Funds,ANL08,ANL12,38.0,17,0,Close - Explained Activity,Fail,KYC Context Missing
+QA0181,ALT02628,2026-09-12,R006,P2P Funnel Activity,ANL10,ANL12,87.0,32,4,Escalate to Case,Pass,None
+QA0182,ALT01421,2026-02-10,R005,High-Value Wire,ANL10,ANL12,33.0,11,5,Escalate to Case,Pass,None
+QA0183,ALT00870,2026-08-10,R002,High-Risk Jurisdiction Wire,ANL09,ANL12,50.0,22,7,Close - False Positive,Pass,None
+QA0184,ALT00615,2026-01-15,R001,Structuring / Cash Activity,ANL08,ANL12,76.0,28,2,Close - False Positive,Fail,Escalation Rationale Weak
+QA0185,ALT00437,2026-03-20,R006,P2P Funnel Activity,ANL11,ANL12,56.0,50,8,Close - False Positive,Pass,None
+QA0186,ALT02068,2026-06-05,R003,Rapid Movement of Funds,ANL06,ANL12,72.0,52,9,Close - Explained Activity,Fail,Insufficient Narrative
+QA0187,ALT00222,2026-07-08,R004,Unusual Volume Increase,ANL04,ANL12,56.0,38,5,Close - False Positive,Pass,None
+QA0188,ALT00406,2026-01-28,R008,Dormant Account Reactivation,ANL10,ANL12,41.0,61,3,Close - False Positive,Fail,KYC Context Missing
+QA0189,ALT01094,2026-05-04,R005,High-Value Wire,ANL04,ANL12,50.0,24,10,Close - Explained Activity,Fail,Insufficient Narrative
+QA0190,ALT03463,2026-07-07,R004,Unusual Volume Increase,ANL04,ANL12,54.0,43,11,Close - False Positive,Pass,None
+QA0191,ALT01593,2026-04-27,R006,P2P Funnel Activity,ANL08,ANL12,72.0,39,15,Close - False Positive,Pass,None
+QA0192,ALT01260,2026-04-15,R003,Rapid Movement of Funds,ANL05,ANL12,62.0,50,11,Close - False Positive,Pass,None
+QA0193,ALT02098,2026-04-08,R004,Unusual Volume Increase,ANL11,ANL12,70.0,36,14,Close - False Positive,Pass,None
+QA0194,ALT00097,2026-01-17,R004,Unusual Volume Increase,ANL07,ANL12,100.0,35,1,Close - False Positive,Pass,None
+QA0195,ALT00151,2026-07-05,R004,Unusual Volume Increase,ANL05,ANL12,79.0,20,15,Close - False Positive,Fail,Incomplete Transaction Review
+QA0196,ALT00020,2026-03-09,R001,Structuring / Cash Activity,ANL11,ANL12,77.0,16,1,Close - False Positive,Pass,None
+QA0197,ALT02859,2026-06-28,R001,Structuring / Cash Activity,ANL01,ANL12,66.0,14,6,Close - False Positive,Pass,None
+QA0198,ALT00241,2026-09-16,R003,Rapid Movement of Funds,ANL12,ANL12,43.0,29,13,Close - Explained Activity,Pass,None
+QA0199,ALT00774,2026-07-01,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,72.0,17,1,Close - False Positive,Pass,None
+QA0200,ALT01762,2026-01-17,R008,Dormant Account Reactivation,ANL10,ANL12,42.0,28,8,Close - False Positive,Pass,None
+QA0201,ALT02387,2026-08-26,R004,Unusual Volume Increase,ANL05,ANL12,40.0,71,6,Close - False Positive,Pass,None
+QA0202,ALT01288,2026-06-05,R001,Structuring / Cash Activity,ANL10,ANL12,81.0,64,2,Close - False Positive,Pass,None
+QA0203,ALT02576,2026-04-13,R007,Cash Intensive Business,ANL12,ANL12,72.0,24,7,Close - Explained Activity,Pass,None
+QA0204,ALT03315,2026-01-04,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,45.0,29,6,Close - False Positive,Pass,None
+QA0205,ALT02497,2026-07-16,R005,High-Value Wire,ANL03,ANL12,56.0,53,10,Close - False Positive,Fail,Insufficient Narrative
+QA0206,ALT01101,2026-03-01,R003,Rapid Movement of Funds,ANL07,ANL12,64.0,37,12,Close - False Positive,Pass,None
+QA0207,ALT02437,2026-03-25,R007,Cash Intensive Business,ANL05,ANL12,61.0,44,15,Close - False Positive,Pass,None
+QA0208,ALT02192,2026-05-06,R006,P2P Funnel Activity,ANL07,ANL12,57.0,35,1,Close - False Positive,Pass,None
+QA0209,ALT02992,2026-04-10,R001,Structuring / Cash Activity,ANL06,ANL12,24.0,33,19,Escalate to Case,Pass,None
+QA0210,ALT02274,2026-08-17,R006,P2P Funnel Activity,ANL08,ANL12,66.0,38,10,Close - False Positive,Pass,None
+QA0211,ALT02418,2026-06-13,R004,Unusual Volume Increase,ANL07,ANL12,38.0,58,12,Close - False Positive,Pass,None
+QA0212,ALT01885,2026-02-10,R001,Structuring / Cash Activity,ANL08,ANL12,38.0,35,4,Close - False Positive,Pass,None
+QA0213,ALT01267,2026-03-14,R004,Unusual Volume Increase,ANL07,ANL12,35.0,46,7,Close - False Positive,Pass,None
+QA0214,ALT00246,2026-06-09,R001,Structuring / Cash Activity,ANL11,ANL12,57.0,55,15,Close - Explained Activity,Pass,None
+QA0215,ALT01833,2026-05-01,R004,Unusual Volume Increase,ANL01,ANL12,92.0,46,0,Close - False Positive,Pass,None
+QA0216,ALT01852,2026-03-03,R001,Structuring / Cash Activity,ANL06,ANL12,53.0,20,16,Close - False Positive,Pass,None
+QA0217,ALT02905,2026-07-29,R008,Dormant Account Reactivation,ANL01,ANL12,51.0,32,27,Close - False Positive,Pass,None
+QA0218,ALT00494,2026-08-25,R001,Structuring / Cash Activity,ANL02,ANL12,57.0,27,7,Close - False Positive,Pass,None
+QA0219,ALT03548,2026-04-17,R005,High-Value Wire,ANL01,ANL12,28.0,45,26,Close - False Positive,Pass,None
+QA0220,ALT01846,2026-06-04,R006,P2P Funnel Activity,ANL01,ANL12,82.0,25,2,Escalate to Case,Pass,None
+QA0221,ALT01407,2026-03-10,R005,High-Value Wire,ANL01,ANL12,71.0,14,8,Close - False Positive,Pass,None
+QA0222,ALT03060,2026-07-22,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,39.0,30,9,Close - False Positive,Pass,None
+QA0223,ALT02789,2026-04-13,R008,Dormant Account Reactivation,ANL08,ANL12,57.0,21,9,Close - Explained Activity,Fail,Incomplete Transaction Review
+QA0224,ALT03489,2026-03-29,R001,Structuring / Cash Activity,ANL01,ANL12,44.0,49,6,Close - False Positive,Pass,None
+QA0225,ALT02104,2026-08-09,R005,High-Value Wire,ANL05,ANL12,81.0,37,5,Escalate to Case,Pass,None
+QA0226,ALT01840,2026-05-02,R003,Rapid Movement of Funds,ANL06,ANL12,38.0,50,9,Close - False Positive,Pass,None
+QA0227,ALT01169,2026-08-05,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,72.0,36,1,Close - False Positive,Pass,None
+QA0228,ALT03493,2026-07-23,R002,High-Risk Jurisdiction Wire,ANL02,ANL12,48.0,32,8,Close - False Positive,Pass,None
+QA0229,ALT01229,2026-02-15,R002,High-Risk Jurisdiction Wire,ANL01,ANL12,41.0,42,4,Close - False Positive,Pass,None
+QA0230,ALT02046,2026-08-22,R001,Structuring / Cash Activity,ANL05,ANL12,36.0,64,2,Close - False Positive,Fail,KYC Context Missing
+QA0231,ALT00466,2026-09-15,R003,Rapid Movement of Funds,ANL05,ANL12,88.0,22,21,Escalate to Case,Pass,None
+QA0232,ALT03208,2026-02-23,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,48.0,25,19,Close - False Positive,Pass,None
+QA0233,ALT02883,2026-08-06,R001,Structuring / Cash Activity,ANL12,ANL12,58.0,35,10,Close - Explained Activity,Pass,None
+QA0234,ALT01446,2026-06-22,R008,Dormant Account Reactivation,ANL03,ANL12,51.0,23,6,Close - False Positive,Pass,None
+QA0235,ALT00378,2026-09-05,R003,Rapid Movement of Funds,ANL08,ANL12,69.0,36,6,Close - False Positive,Pass,None
+QA0236,ALT02571,2026-04-01,R001,Structuring / Cash Activity,ANL11,ANL12,57.0,36,2,Close - False Positive,Pass,None
+QA0237,ALT02862,2026-01-23,R008,Dormant Account Reactivation,ANL09,ANL12,58.0,26,8,Escalate to Case,Pass,None
+QA0238,ALT02276,2026-03-17,R001,Structuring / Cash Activity,ANL06,ANL12,72.0,64,8,Close - Explained Activity,Pass,None
+QA0239,ALT02256,2026-06-12,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,74.0,37,16,Close - False Positive,Pass,None
+QA0240,ALT03024,2026-08-01,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,72.0,27,2,Close - False Positive,Pass,None
+QA0241,ALT02206,2026-09-12,R004,Unusual Volume Increase,ANL04,ANL12,41.0,48,5,Close - False Positive,Pass,None
+QA0242,ALT01712,2026-05-21,R006,P2P Funnel Activity,ANL04,ANL12,58.0,42,9,Escalate to Case,Pass,None
+QA0243,ALT03530,2026-06-02,R005,High-Value Wire,ANL02,ANL12,64.0,72,12,Close - Explained Activity,Pass,None
+QA0244,ALT01375,2026-01-16,R002,High-Risk Jurisdiction Wire,ANL02,ANL12,60.0,39,4,Close - False Positive,Pass,None
+QA0245,ALT01112,2026-01-06,R003,Rapid Movement of Funds,ANL05,ANL12,74.0,45,26,Close - False Positive,Pass,None
+QA0246,ALT02950,2026-09-12,R004,Unusual Volume Increase,ANL01,ANL12,33.0,60,2,Escalate to Case,Pass,None
+QA0247,ALT02808,2026-09-26,R003,Rapid Movement of Funds,ANL10,ANL12,18.0,49,6,Close - False Positive,Pass,None
+QA0248,ALT02674,2026-06-13,R005,High-Value Wire,ANL01,ANL12,38.0,34,4,Close - Explained Activity,Pass,None
+QA0249,ALT01240,2026-09-01,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,35.0,39,4,Escalate to Case,Pass,None
+QA0250,ALT01194,2026-04-22,R001,Structuring / Cash Activity,ANL03,ANL12,92.0,48,7,Close - False Positive,Pass,None
+QA0251,ALT02080,2026-09-01,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,57.0,37,17,Close - Explained Activity,Pass,None
+QA0252,ALT03466,2026-06-10,R004,Unusual Volume Increase,ANL08,ANL12,35.0,51,15,Close - False Positive,Pass,None
+QA0253,ALT00611,2026-04-28,R003,Rapid Movement of Funds,ANL08,ANL12,51.0,21,22,Close - False Positive,Pass,None
+QA0254,ALT03374,2026-05-21,R005,High-Value Wire,ANL07,ANL12,85.0,21,5,Escalate to Case,Pass,None
+QA0255,ALT03190,2026-01-26,R006,P2P Funnel Activity,ANL08,ANL12,74.0,17,8,Escalate to Case,Pass,None
+QA0256,ALT03571,2026-07-22,R007,Cash Intensive Business,ANL01,ANL12,55.0,31,7,Close - False Positive,Fail,KYC Context Missing
+QA0257,ALT00173,2026-08-01,R003,Rapid Movement of Funds,ANL04,ANL12,59.0,56,8,Close - Explained Activity,Pass,None
+QA0258,ALT01944,2026-05-15,R006,P2P Funnel Activity,ANL01,ANL12,82.0,42,6,Close - False Positive,Pass,None
+QA0259,ALT00398,2026-05-28,R003,Rapid Movement of Funds,ANL02,ANL12,85.0,46,1,Close - False Positive,Pass,None
+QA0260,ALT00987,2026-05-16,R006,P2P Funnel Activity,ANL07,ANL12,96.0,45,5,Close - False Positive,Pass,None
+QA0261,ALT00852,2026-04-28,R004,Unusual Volume Increase,ANL03,ANL12,58.0,35,4,Close - Explained Activity,Pass,None
+QA0262,ALT00899,2026-06-21,R001,Structuring / Cash Activity,ANL06,ANL12,71.0,51,14,Close - False Positive,Fail,Disposition Not Supported
+QA0263,ALT03570,2026-05-21,R007,Cash Intensive Business,ANL06,ANL12,40.0,56,4,Close - False Positive,Pass,None
+QA0264,ALT01922,2026-09-28,R001,Structuring / Cash Activity,ANL11,ANL12,34.0,23,7,Close - Explained Activity,Pass,None
+QA0265,ALT01167,2026-04-26,R006,P2P Funnel Activity,ANL03,ANL12,56.0,55,12,Close - False Positive,Pass,None
+QA0266,ALT01783,2026-01-10,R007,Cash Intensive Business,ANL02,ANL12,43.0,44,7,Escalate to Case,Pass,None
+QA0267,ALT02997,2026-09-19,R008,Dormant Account Reactivation,ANL04,ANL12,45.0,32,17,Escalate to Case,Pass,None
+QA0268,ALT03072,2026-05-20,R001,Structuring / Cash Activity,ANL12,ANL12,56.0,26,6,Close - False Positive,Pass,None
+QA0269,ALT02049,2026-06-02,R007,Cash Intensive Business,ANL02,ANL12,18.0,21,35,Close - False Positive,Pass,None
+QA0270,ALT03243,2026-03-06,R003,Rapid Movement of Funds,ANL08,ANL12,70.0,21,1,Escalate to Case,Pass,None
+QA0271,ALT02588,2026-08-22,R003,Rapid Movement of Funds,ANL12,ANL12,74.0,55,4,Escalate to Case,Pass,None
+QA0272,ALT02417,2026-08-28,R005,High-Value Wire,ANL09,ANL12,52.0,37,12,Close - False Positive,Pass,None
+QA0273,ALT01722,2026-03-31,R005,High-Value Wire,ANL06,ANL12,43.0,28,6,Close - False Positive,Pass,None
+QA0274,ALT01542,2026-06-17,R004,Unusual Volume Increase,ANL09,ANL12,40.0,45,14,Close - Explained Activity,Pass,None
+QA0275,ALT01273,2026-03-22,R004,Unusual Volume Increase,ANL07,ANL12,85.0,34,3,Close - False Positive,Pass,None
+QA0276,ALT01217,2026-09-17,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,79.0,45,11,Close - Explained Activity,Pass,None
+QA0277,ALT03409,2026-06-02,R002,High-Risk Jurisdiction Wire,ANL09,ANL12,23.0,43,4,Close - False Positive,Pass,None
+QA0278,ALT01203,2026-08-28,R008,Dormant Account Reactivation,ANL06,ANL12,75.0,29,17,Escalate to Case,Pass,None
+QA0279,ALT01661,2026-02-18,R004,Unusual Volume Increase,ANL02,ANL12,52.0,25,17,Close - False Positive,Pass,None
+QA0280,ALT01535,2026-06-03,R003,Rapid Movement of Funds,ANL12,ANL12,72.0,38,1,Escalate to Case,Pass,None
+QA0281,ALT01955,2026-02-03,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,73.0,53,22,Escalate to Case,Fail,Disposition Not Supported
+QA0282,ALT02051,2026-05-01,R005,High-Value Wire,ANL08,ANL12,34.0,37,12,Close - False Positive,Pass,None
+QA0283,ALT00694,2026-04-06,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,50.0,51,14,Escalate to Case,Pass,None
+QA0284,ALT00249,2026-05-14,R001,Structuring / Cash Activity,ANL12,ANL12,73.0,45,17,Close - False Positive,Pass,None
+QA0285,ALT03096,2026-02-04,R001,Structuring / Cash Activity,ANL08,ANL12,57.0,32,5,Close - Explained Activity,Pass,None
+QA0286,ALT02065,2026-07-29,R003,Rapid Movement of Funds,ANL03,ANL12,99.0,53,12,Escalate to Case,Pass,None
+QA0287,ALT01958,2026-01-04,R001,Structuring / Cash Activity,ANL10,ANL12,74.0,13,6,Escalate to Case,Pass,None
+QA0288,ALT02669,2026-04-21,R001,Structuring / Cash Activity,ANL11,ANL12,68.0,74,7,Close - False Positive,Fail,Insufficient Narrative
+QA0289,ALT00978,2026-06-13,R008,Dormant Account Reactivation,ANL05,ANL12,67.0,71,18,Close - Explained Activity,Pass,None
+QA0290,ALT00972,2026-09-10,R004,Unusual Volume Increase,ANL06,ANL12,51.0,31,4,Close - Explained Activity,Pass,None
+QA0291,ALT00022,2026-04-27,R001,Structuring / Cash Activity,ANL12,ANL12,51.0,11,1,Close - False Positive,Pass,None
+QA0292,ALT03404,2026-02-07,R005,High-Value Wire,ANL12,ANL12,52.0,36,2,Escalate to Case,Fail,KYC Context Missing
+QA0293,ALT02060,2026-01-25,R001,Structuring / Cash Activity,ANL02,ANL12,80.0,28,6,Close - False Positive,Pass,None
+QA0294,ALT00950,2026-03-12,R005,High-Value Wire,ANL10,ANL12,53.0,8,3,Escalate to Case,Pass,None
+QA0295,ALT00231,2026-07-31,R001,Structuring / Cash Activity,ANL08,ANL12,42.0,45,6,Escalate to Case,Pass,None
+QA0296,ALT00545,2026-05-07,R004,Unusual Volume Increase,ANL05,ANL12,44.0,44,3,Close - False Positive,Pass,None
+QA0297,ALT02459,2026-05-30,R006,P2P Funnel Activity,ANL03,ANL12,84.0,30,5,Close - False Positive,Pass,None
+QA0298,ALT02514,2026-06-05,R007,Cash Intensive Business,ANL05,ANL12,51.0,51,21,Close - False Positive,Fail,Disposition Not Supported
+QA0299,ALT00415,2026-06-07,R005,High-Value Wire,ANL09,ANL12,85.0,31,14,Close - False Positive,Pass,None
+QA0300,ALT01315,2026-04-04,R004,Unusual Volume Increase,ANL06,ANL12,40.0,63,6,Close - False Positive,Fail,KYC Context Missing
+QA0301,ALT01492,2026-09-08,R008,Dormant Account Reactivation,ANL01,ANL12,19.0,44,3,Close - False Positive,Fail,Incomplete Transaction Review
+QA0302,ALT03045,2026-05-08,R007,Cash Intensive Business,ANL08,ANL12,72.0,55,26,Close - False Positive,Fail,KYC Context Missing
+QA0303,ALT03394,2026-03-19,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,60.0,41,10,Escalate to Case,Pass,None
+QA0304,ALT03246,2026-04-28,R002,High-Risk Jurisdiction Wire,ANL01,ANL12,69.0,37,6,Close - Explained Activity,Pass,None
+QA0305,ALT02412,2026-09-12,R004,Unusual Volume Increase,ANL07,ANL12,37.0,38,2,Close - False Positive,Pass,None
+QA0306,ALT02737,2026-06-19,R007,Cash Intensive Business,ANL05,ANL12,71.0,24,10,Close - Explained Activity,Pass,None
+QA0307,ALT01417,2026-03-20,R004,Unusual Volume Increase,ANL03,ANL12,58.0,23,4,Close - False Positive,Pass,None
+QA0308,ALT02408,2026-02-18,R006,P2P Funnel Activity,ANL09,ANL12,43.0,70,13,Close - False Positive,Pass,None
+QA0309,ALT02762,2026-05-31,R005,High-Value Wire,ANL02,ANL12,63.0,49,3,Close - Explained Activity,Pass,None
+QA0310,ALT02811,2026-09-01,R005,High-Value Wire,ANL01,ANL12,64.0,37,19,Escalate to Case,Pass,None
+QA0311,ALT02796,2026-07-07,R003,Rapid Movement of Funds,ANL10,ANL12,55.0,23,1,Escalate to Case,Pass,None
+QA0312,ALT03194,2026-09-08,R005,High-Value Wire,ANL02,ANL12,32.0,39,10,Close - False Positive,Pass,None
+QA0313,ALT01811,2026-05-22,R001,Structuring / Cash Activity,ANL11,ANL12,45.0,40,5,Close - False Positive,Pass,None
+QA0314,ALT00536,2026-08-12,R004,Unusual Volume Increase,ANL06,ANL12,71.0,20,5,Close - False Positive,Pass,None
+QA0315,ALT00653,2026-09-30,R003,Rapid Movement of Funds,ANL01,ANL12,50.0,35,2,Close - False Positive,Pass,None
+QA0316,ALT03012,2026-05-24,R001,Structuring / Cash Activity,ANL01,ANL12,84.0,36,5,Close - False Positive,Pass,None
+QA0317,ALT03547,2026-09-11,R005,High-Value Wire,ANL04,ANL12,62.0,40,9,Close - Explained Activity,Pass,None
+QA0318,ALT01008,2026-03-21,R005,High-Value Wire,ANL04,ANL12,51.0,31,0,Close - False Positive,Pass,None
+QA0319,ALT00382,2026-02-09,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,51.0,41,7,Escalate to Case,Pass,None
+QA0320,ALT00646,2026-05-02,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,53.0,30,3,Escalate to Case,Pass,None
+QA0321,ALT01878,2026-06-17,R002,High-Risk Jurisdiction Wire,ANL09,ANL12,79.0,74,1,Close - False Positive,Fail,Incomplete Transaction Review
+QA0322,ALT01894,2026-06-18,R008,Dormant Account Reactivation,ANL06,ANL12,69.0,50,7,Escalate to Case,Pass,None
+QA0323,ALT02340,2026-07-01,R004,Unusual Volume Increase,ANL07,ANL12,47.0,44,9,Close - False Positive,Fail,KYC Context Missing
+QA0324,ALT00660,2026-05-22,R006,P2P Funnel Activity,ANL01,ANL12,50.0,43,3,Close - Explained Activity,Pass,None
+QA0325,ALT00673,2026-09-13,R004,Unusual Volume Increase,ANL10,ANL12,100.0,8,4,Escalate to Case,Fail,Incomplete Transaction Review
+QA0326,ALT01390,2026-03-12,R006,P2P Funnel Activity,ANL05,ANL12,66.0,53,17,Close - False Positive,Pass,None
+QA0327,ALT02040,2026-09-09,R004,Unusual Volume Increase,ANL05,ANL12,45.0,16,3,Escalate to Case,Pass,None
+QA0328,ALT00224,2026-06-04,R005,High-Value Wire,ANL07,ANL12,65.0,81,15,Close - False Positive,Pass,None
+QA0329,ALT02209,2026-07-31,R007,Cash Intensive Business,ANL11,ANL12,20.0,12,1,Close - False Positive,Pass,None
+QA0330,ALT03254,2026-08-19,R008,Dormant Account Reactivation,ANL12,ANL12,22.0,56,20,Escalate to Case,Pass,None
+QA0331,ALT00339,2026-09-29,R004,Unusual Volume Increase,ANL10,ANL12,70.0,14,5,Close - False Positive,Pass,None
+QA0332,ALT00110,2026-04-02,R003,Rapid Movement of Funds,ANL05,ANL12,83.0,25,8,Escalate to Case,Pass,None
+QA0333,ALT01771,2026-07-24,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,44.0,30,4,Close - False Positive,Pass,None
+QA0334,ALT00267,2026-02-08,R005,High-Value Wire,ANL05,ANL12,86.0,43,5,Escalate to Case,Fail,Incomplete Transaction Review
+QA0335,ALT02064,2026-01-02,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,59.0,36,4,Escalate to Case,Pass,None
+QA0336,ALT03555,2026-03-05,R005,High-Value Wire,ANL04,ANL12,46.0,47,6,Escalate to Case,Pass,None
+QA0337,ALT01033,2026-04-11,R005,High-Value Wire,ANL03,ANL12,69.0,43,12,Escalate to Case,Pass,None
+QA0338,ALT02792,2026-08-15,R003,Rapid Movement of Funds,ANL08,ANL12,54.0,43,12,Close - False Positive,Pass,None
+QA0339,ALT02353,2026-07-26,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,100.0,40,3,Escalate to Case,Pass,None
+QA0340,ALT02220,2026-07-22,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,94.0,59,11,Close - False Positive,Pass,None
+QA0341,ALT03423,2026-05-25,R001,Structuring / Cash Activity,ANL03,ANL12,37.0,35,5,Close - False Positive,Pass,None
+QA0342,ALT01472,2026-06-05,R001,Structuring / Cash Activity,ANL01,ANL12,100.0,49,6,Close - False Positive,Pass,None
+QA0343,ALT00768,2026-06-11,R008,Dormant Account Reactivation,ANL03,ANL12,45.0,26,23,Close - Explained Activity,Fail,Disposition Not Supported
+QA0344,ALT03193,2026-03-20,R008,Dormant Account Reactivation,ANL10,ANL12,21.0,25,6,Escalate to Case,Pass,None
+QA0345,ALT00106,2026-09-16,R004,Unusual Volume Increase,ANL05,ANL12,79.0,33,18,Close - False Positive,Pass,None
+QA0346,ALT02382,2026-01-28,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,65.0,40,12,Escalate to Case,Pass,None
+QA0347,ALT02760,2026-05-12,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,69.0,21,11,Close - False Positive,Pass,None
+QA0348,ALT01657,2026-03-19,R005,High-Value Wire,ANL12,ANL12,39.0,23,4,Escalate to Case,Pass,None
+QA0349,ALT02105,2026-03-06,R007,Cash Intensive Business,ANL05,ANL12,80.0,42,14,Close - False Positive,Pass,None
+QA0350,ALT02300,2026-06-28,R008,Dormant Account Reactivation,ANL02,ANL12,57.0,49,14,Escalate to Case,Pass,None
+QA0351,ALT00458,2026-05-08,R005,High-Value Wire,ANL03,ANL12,86.0,16,21,Close - Explained Activity,Pass,None
+QA0352,ALT00662,2026-03-06,R006,P2P Funnel Activity,ANL03,ANL12,75.0,50,4,Close - Explained Activity,Pass,None
+QA0353,ALT01644,2026-06-07,R001,Structuring / Cash Activity,ANL11,ANL12,38.0,59,3,Close - False Positive,Pass,None
+QA0354,ALT00839,2026-01-16,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,53.0,26,3,Close - Explained Activity,Pass,None
+QA0355,ALT00506,2026-01-07,R003,Rapid Movement of Funds,ANL02,ANL12,30.0,48,4,Escalate to Case,Pass,None
+QA0356,ALT02834,2026-05-26,R004,Unusual Volume Increase,ANL06,ANL12,51.0,42,6,Close - False Positive,Pass,None
+QA0357,ALT00481,2026-01-12,R004,Unusual Volume Increase,ANL12,ANL12,59.0,35,6,Close - False Positive,Pass,None
+QA0358,ALT01282,2026-08-11,R001,Structuring / Cash Activity,ANL12,ANL12,50.0,33,15,Close - False Positive,Pass,None
+QA0359,ALT02415,2026-03-03,R007,Cash Intensive Business,ANL10,ANL12,52.0,28,24,Close - False Positive,Fail,KYC Context Missing
+QA0360,ALT02753,2026-05-19,R001,Structuring / Cash Activity,ANL08,ANL12,57.0,56,5,Close - False Positive,Pass,None
+QA0361,ALT02322,2026-06-27,R007,Cash Intensive Business,ANL02,ANL12,46.0,64,12,Close - False Positive,Pass,None
+QA0362,ALT01706,2026-06-26,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,63.0,66,6,Escalate to Case,Pass,None
+QA0363,ALT00187,2026-05-03,R005,High-Value Wire,ANL06,ANL12,42.0,42,12,Close - Explained Activity,Pass,None
+QA0364,ALT02699,2026-02-07,R003,Rapid Movement of Funds,ANL04,ANL12,56.0,55,6,Close - Explained Activity,Pass,None
+QA0365,ALT00804,2026-06-15,R007,Cash Intensive Business,ANL12,ANL12,43.0,14,16,Close - False Positive,Pass,None
+QA0366,ALT01042,2026-09-24,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,76.0,28,16,Escalate to Case,Pass,None
+QA0367,ALT01241,2026-01-02,R007,Cash Intensive Business,ANL09,ANL12,61.0,13,13,Escalate to Case,Fail,KYC Context Missing
+QA0368,ALT00010,2026-03-19,R004,Unusual Volume Increase,ANL09,ANL12,43.0,30,34,Close - False Positive,Pass,None
+QA0369,ALT00720,2026-07-16,R006,P2P Funnel Activity,ANL06,ANL12,60.0,55,22,Escalate to Case,Fail,KYC Context Missing
+QA0370,ALT01887,2026-09-06,R007,Cash Intensive Business,ANL02,ANL12,49.0,26,5,Close - False Positive,Pass,None
+QA0371,ALT02058,2026-09-06,R006,P2P Funnel Activity,ANL01,ANL12,65.0,51,3,Close - False Positive,Pass,None
+QA0372,ALT00237,2026-02-28,R006,P2P Funnel Activity,ANL12,ANL12,48.0,38,12,Close - False Positive,Fail,Disposition Not Supported
+QA0373,ALT00565,2026-05-28,R002,High-Risk Jurisdiction Wire,ANL02,ANL12,34.0,42,8,Escalate to Case,Pass,None
+QA0374,ALT03479,2026-04-10,R006,P2P Funnel Activity,ANL08,ANL12,55.0,26,22,Close - False Positive,Pass,None
+QA0375,ALT02370,2026-01-05,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,50.0,34,19,Escalate to Case,Pass,None
+QA0376,ALT03159,2026-09-29,R006,P2P Funnel Activity,ANL08,ANL12,69.0,30,12,Close - False Positive,Pass,None
+QA0377,ALT00408,2026-02-07,R001,Structuring / Cash Activity,ANL09,ANL12,63.0,41,1,Close - False Positive,Fail,Disposition Not Supported
+QA0378,ALT02011,2026-04-15,R003,Rapid Movement of Funds,ANL10,ANL12,56.0,23,8,Escalate to Case,Fail,Incomplete Transaction Review
+QA0379,ALT01303,2026-02-01,R001,Structuring / Cash Activity,ANL04,ANL12,40.0,40,3,Close - Explained Activity,Pass,None
+QA0380,ALT02374,2026-08-23,R001,Structuring / Cash Activity,ANL10,ANL12,52.0,32,14,Close - Explained Activity,Pass,None
+QA0381,ALT00265,2026-01-15,R004,Unusual Volume Increase,ANL07,ANL12,45.0,36,3,Close - False Positive,Pass,None
+QA0382,ALT01746,2026-05-03,R006,P2P Funnel Activity,ANL03,ANL12,55.0,32,27,Close - False Positive,Fail,Insufficient Narrative
+QA0383,ALT00543,2026-03-12,R003,Rapid Movement of Funds,ANL11,ANL12,41.0,52,4,Close - False Positive,Pass,None
+QA0384,ALT00954,2026-05-02,R004,Unusual Volume Increase,ANL09,ANL12,69.0,41,4,Close - Explained Activity,Pass,None
+QA0385,ALT00563,2026-06-08,R007,Cash Intensive Business,ANL10,ANL12,72.0,76,8,Close - False Positive,Pass,None
+QA0386,ALT01346,2026-06-06,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,46.0,40,15,Close - Explained Activity,Pass,None
+QA0387,ALT02822,2026-04-08,R003,Rapid Movement of Funds,ANL01,ANL12,59.0,23,4,Escalate to Case,Pass,None
+QA0388,ALT00587,2026-05-27,R003,Rapid Movement of Funds,ANL07,ANL12,39.0,36,18,Close - Explained Activity,Pass,None
+QA0389,ALT01929,2026-03-04,R003,Rapid Movement of Funds,ANL12,ANL12,66.0,29,7,Close - False Positive,Pass,None
+QA0390,ALT02103,2026-08-15,R007,Cash Intensive Business,ANL07,ANL12,67.0,67,1,Close - False Positive,Pass,None
+QA0391,ALT01802,2026-03-17,R001,Structuring / Cash Activity,ANL01,ANL12,61.0,41,13,Close - False Positive,Pass,None
+QA0392,ALT03578,2026-05-24,R007,Cash Intensive Business,ANL05,ANL12,76.0,59,18,Close - Explained Activity,Pass,None
+QA0393,ALT02450,2026-06-08,R004,Unusual Volume Increase,ANL01,ANL12,41.0,8,6,Escalate to Case,Fail,Insufficient Narrative
+QA0394,ALT00821,2026-04-30,R008,Dormant Account Reactivation,ANL11,ANL12,75.0,35,9,Escalate to Case,Pass,None
+QA0395,ALT01166,2026-01-02,R001,Structuring / Cash Activity,ANL03,ANL12,20.0,41,6,Close - False Positive,Pass,None
+QA0396,ALT00886,2026-07-19,R001,Structuring / Cash Activity,ANL02,ANL12,59.0,38,11,Close - False Positive,Pass,None
+QA0397,ALT02297,2026-01-14,R001,Structuring / Cash Activity,ANL02,ANL12,32.0,50,18,Close - False Positive,Pass,None
+QA0398,ALT02386,2026-04-09,R004,Unusual Volume Increase,ANL02,ANL12,56.0,30,8,Close - False Positive,Pass,None
+QA0399,ALT02574,2026-06-07,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,69.0,49,3,Escalate to Case,Pass,None
+QA0400,ALT00039,2026-06-15,R005,High-Value Wire,ANL08,ANL12,51.0,35,15,Close - False Positive,Pass,None
+QA0401,ALT02476,2026-01-29,R004,Unusual Volume Increase,ANL03,ANL12,60.0,41,4,Close - Explained Activity,Pass,None
+QA0402,ALT00554,2026-03-07,R003,Rapid Movement of Funds,ANL11,ANL12,75.0,23,17,Close - False Positive,Fail,KYC Context Missing
+QA0403,ALT02081,2026-02-07,R005,High-Value Wire,ANL02,ANL12,71.0,30,12,Close - False Positive,Pass,None
+QA0404,ALT01436,2026-04-30,R006,P2P Funnel Activity,ANL09,ANL12,52.0,20,3,Escalate to Case,Pass,None
+QA0405,ALT03274,2026-03-04,R004,Unusual Volume Increase,ANL09,ANL12,51.0,26,5,Close - False Positive,Fail,Insufficient Narrative
+QA0406,ALT00923,2026-03-27,R008,Dormant Account Reactivation,ANL10,ANL12,73.0,22,4,Close - False Positive,Pass,None
+QA0407,ALT02484,2026-05-20,R002,High-Risk Jurisdiction Wire,ANL02,ANL12,60.0,24,13,Close - Explained Activity,Pass,None
+QA0408,ALT03356,2026-03-30,R003,Rapid Movement of Funds,ANL06,ANL12,64.0,24,3,Close - False Positive,Pass,None
+QA0409,ALT00637,2026-01-12,R001,Structuring / Cash Activity,ANL06,ANL12,62.0,54,2,Close - Explained Activity,Pass,None
+QA0410,ALT00229,2026-01-08,R001,Structuring / Cash Activity,ANL12,ANL12,49.0,43,8,Close - False Positive,Pass,None
+QA0411,ALT03283,2026-05-12,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,39.0,61,18,Close - False Positive,Pass,None
+QA0412,ALT01456,2026-04-23,R004,Unusual Volume Increase,ANL12,ANL12,83.0,43,10,Escalate to Case,Fail,Incomplete Transaction Review
+QA0413,ALT03204,2026-08-23,R008,Dormant Account Reactivation,ANL05,ANL12,50.0,28,6,Close - Explained Activity,Fail,Insufficient Narrative
+QA0414,ALT03278,2026-01-12,R001,Structuring / Cash Activity,ANL01,ANL12,55.0,39,17,Close - False Positive,Pass,None
+QA0415,ALT01354,2026-09-25,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,65.0,38,8,Close - False Positive,Pass,None
+QA0416,ALT00773,2026-05-13,R004,Unusual Volume Increase,ANL06,ANL12,36.0,34,3,Close - False Positive,Pass,None
+QA0417,ALT00200,2026-03-12,R007,Cash Intensive Business,ANL08,ANL12,52.0,43,10,Close - Explained Activity,Pass,None
+QA0418,ALT03443,2026-02-20,R004,Unusual Volume Increase,ANL06,ANL12,86.0,65,2,Escalate to Case,Pass,None
+QA0419,ALT01737,2026-01-25,R001,Structuring / Cash Activity,ANL07,ANL12,50.0,16,0,Escalate to Case,Pass,None
+QA0420,ALT03068,2026-04-29,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,51.0,72,5,Close - False Positive,Pass,None
+QA0421,ALT02544,2026-05-14,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,74.0,47,10,Close - False Positive,Pass,None
+QA0422,ALT02659,2026-06-16,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,67.0,37,23,Close - False Positive,Pass,None
+QA0423,ALT00756,2026-02-24,R004,Unusual Volume Increase,ANL12,ANL12,41.0,26,10,Escalate to Case,Pass,None
+QA0424,ALT00840,2026-06-09,R006,P2P Funnel Activity,ANL03,ANL12,54.0,45,6,Close - False Positive,Pass,None
+QA0425,ALT02380,2026-09-23,R005,High-Value Wire,ANL03,ANL12,64.0,44,9,Escalate to Case,Pass,None
+QA0426,ALT03083,2026-06-20,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,88.0,42,12,Escalate to Case,Pass,None
+QA0427,ALT02839,2026-03-25,R005,High-Value Wire,ANL03,ANL12,62.0,38,4,Escalate to Case,Pass,None
+QA0428,ALT01146,2026-09-29,R004,Unusual Volume Increase,ANL08,ANL12,57.0,67,4,Close - False Positive,Fail,KYC Context Missing
+QA0429,ALT03294,2026-05-04,R004,Unusual Volume Increase,ANL04,ANL12,35.0,65,23,Escalate to Case,Pass,None
+QA0430,ALT00573,2026-09-24,R005,High-Value Wire,ANL05,ANL12,53.0,22,7,Escalate to Case,Pass,None
+QA0431,ALT03556,2026-03-30,R005,High-Value Wire,ANL11,ANL12,50.0,54,2,Close - False Positive,Pass,None
+QA0432,ALT01337,2026-03-27,R001,Structuring / Cash Activity,ANL02,ANL12,73.0,27,7,Close - False Positive,Pass,None
+QA0433,ALT03187,2026-08-26,R003,Rapid Movement of Funds,ANL02,ANL12,75.0,45,6,Close - False Positive,Pass,None
+QA0434,ALT03351,2026-06-23,R001,Structuring / Cash Activity,ANL07,ANL12,48.0,34,8,Close - False Positive,Pass,None
+QA0435,ALT01949,2026-07-19,R004,Unusual Volume Increase,ANL02,ANL12,86.0,49,7,Close - False Positive,Pass,None
+QA0436,ALT02314,2026-04-12,R003,Rapid Movement of Funds,ANL09,ANL12,78.0,50,5,Close - False Positive,Pass,None
+QA0437,ALT00993,2026-08-22,R008,Dormant Account Reactivation,ANL09,ANL12,51.0,12,6,Escalate to Case,Pass,None
+QA0438,ALT01078,2026-08-11,R006,P2P Funnel Activity,ANL02,ANL12,80.0,34,1,Close - Explained Activity,Pass,None
+QA0439,ALT03103,2026-07-10,R006,P2P Funnel Activity,ANL03,ANL12,92.0,36,8,Escalate to Case,Pass,None
+QA0440,ALT03107,2026-04-09,R004,Unusual Volume Increase,ANL09,ANL12,53.0,37,25,Close - False Positive,Pass,None
+QA0441,ALT03589,2026-03-30,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,72.0,42,6,Escalate to Case,Pass,None
+QA0442,ALT00163,2026-08-01,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,39.0,38,14,Close - False Positive,Pass,None
+QA0443,ALT02185,2026-02-11,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,90.0,40,21,Escalate to Case,Pass,None
+QA0444,ALT03076,2026-07-29,R001,Structuring / Cash Activity,ANL03,ANL12,56.0,33,8,Escalate to Case,Pass,None
+QA0445,ALT02321,2026-07-23,R003,Rapid Movement of Funds,ANL04,ANL12,78.0,52,4,Escalate to Case,Fail,Incomplete Transaction Review
+QA0446,ALT03095,2026-02-08,R005,High-Value Wire,ANL07,ANL12,60.0,29,4,Close - False Positive,Pass,None
+QA0447,ALT03010,2026-01-30,R003,Rapid Movement of Funds,ANL09,ANL12,73.0,55,2,Close - False Positive,Pass,None
+QA0448,ALT00066,2026-05-04,R005,High-Value Wire,ANL11,ANL12,63.0,34,7,Close - False Positive,Pass,None
+QA0449,ALT02363,2026-03-12,R006,P2P Funnel Activity,ANL02,ANL12,65.0,47,8,Close - Explained Activity,Pass,None
+QA0450,ALT03037,2026-05-21,R006,P2P Funnel Activity,ANL03,ANL12,53.0,48,3,Close - False Positive,Pass,None
+QA0451,ALT00630,2026-06-11,R004,Unusual Volume Increase,ANL05,ANL12,42.0,44,26,Close - False Positive,Fail,KYC Context Missing
+QA0452,ALT02124,2026-08-07,R004,Unusual Volume Increase,ANL10,ANL12,65.0,23,14,Close - False Positive,Pass,None
+QA0453,ALT00393,2026-07-05,R008,Dormant Account Reactivation,ANL09,ANL12,78.0,66,10,Close - Explained Activity,Pass,None
+QA0454,ALT00618,2026-02-13,R003,Rapid Movement of Funds,ANL11,ANL12,83.0,49,10,Escalate to Case,Pass,None
+QA0455,ALT03363,2026-09-22,R004,Unusual Volume Increase,ANL01,ANL12,61.0,49,9,Close - False Positive,Pass,None
+QA0456,ALT01044,2026-09-30,R002,High-Risk Jurisdiction Wire,ANL09,ANL12,38.0,21,8,Close - Explained Activity,Pass,None
+QA0457,ALT03456,2026-02-08,R004,Unusual Volume Increase,ANL06,ANL12,68.0,46,2,Close - Explained Activity,Pass,None
+QA0458,ALT00372,2026-01-31,R005,High-Value Wire,ANL08,ANL12,58.0,52,6,Close - False Positive,Pass,None
+QA0459,ALT02522,2026-06-27,R007,Cash Intensive Business,ANL10,ANL12,78.0,29,3,Close - False Positive,Fail,Disposition Not Supported
+QA0460,ALT01249,2026-05-06,R004,Unusual Volume Increase,ANL08,ANL12,41.0,21,7,Close - False Positive,Pass,None
+QA0461,ALT02390,2026-06-21,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,70.0,31,26,Close - False Positive,Pass,None
+QA0462,ALT00590,2026-04-25,R004,Unusual Volume Increase,ANL02,ANL12,82.0,44,6,Escalate to Case,Pass,None
+QA0463,ALT01726,2026-05-22,R007,Cash Intensive Business,ANL05,ANL12,64.0,57,12,Close - False Positive,Pass,None
+QA0464,ALT02681,2026-09-02,R001,Structuring / Cash Activity,ANL08,ANL12,73.0,29,19,Close - False Positive,Pass,None
+QA0465,ALT01936,2026-05-19,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,48.0,28,8,Close - False Positive,Pass,None
+QA0466,ALT02577,2026-03-09,R003,Rapid Movement of Funds,ANL11,ANL12,54.0,57,6,Close - False Positive,Pass,None
+QA0467,ALT02686,2026-04-11,R005,High-Value Wire,ANL10,ANL12,51.0,38,4,Escalate to Case,Pass,None
+QA0468,ALT00586,2026-03-01,R004,Unusual Volume Increase,ANL07,ANL12,59.0,20,9,Close - False Positive,Pass,None
+QA0469,ALT01185,2026-07-05,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,47.0,41,11,Close - False Positive,Pass,None
+QA0470,ALT00962,2026-04-12,R003,Rapid Movement of Funds,ANL10,ANL12,59.0,37,14,Escalate to Case,Pass,None
+QA0471,ALT01086,2026-07-01,R004,Unusual Volume Increase,ANL01,ANL12,58.0,29,7,Close - False Positive,Pass,None
+QA0472,ALT03240,2026-01-26,R006,P2P Funnel Activity,ANL05,ANL12,60.0,34,10,Close - Explained Activity,Pass,None
+QA0473,ALT02084,2026-05-29,R003,Rapid Movement of Funds,ANL09,ANL12,47.0,8,24,Close - False Positive,Fail,Incomplete Transaction Review
+QA0474,ALT01575,2026-02-12,R003,Rapid Movement of Funds,ANL09,ANL12,15.0,30,10,Close - Explained Activity,Pass,None
+QA0475,ALT03471,2026-05-06,R001,Structuring / Cash Activity,ANL10,ANL12,57.0,42,2,Close - False Positive,Pass,None
+QA0476,ALT02330,2026-07-19,R007,Cash Intensive Business,ANL04,ANL12,62.0,44,17,Close - False Positive,Pass,None
+QA0477,ALT03090,2026-09-11,R005,High-Value Wire,ANL10,ANL12,44.0,13,11,Close - False Positive,Pass,None
+QA0478,ALT02430,2026-01-30,R004,Unusual Volume Increase,ANL04,ANL12,68.0,33,8,Close - False Positive,Fail,Incomplete Transaction Review
+QA0479,ALT00035,2026-03-26,R005,High-Value Wire,ANL07,ANL12,34.0,48,13,Close - False Positive,Pass,None
+QA0480,ALT03366,2026-04-04,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,54.0,23,10,Close - Explained Activity,Pass,None
+QA0481,ALT02288,2026-07-15,R003,Rapid Movement of Funds,ANL07,ANL12,74.0,44,10,Close - False Positive,Pass,None
+QA0482,ALT02655,2026-01-19,R002,High-Risk Jurisdiction Wire,ANL01,ANL12,66.0,30,5,Escalate to Case,Pass,None
+QA0483,ALT02014,2026-07-20,R008,Dormant Account Reactivation,ANL05,ANL12,59.0,14,18,Close - Explained Activity,Pass,None
+QA0484,ALT02452,2026-08-20,R001,Structuring / Cash Activity,ANL01,ANL12,56.0,60,6,Escalate to Case,Fail,KYC Context Missing
+QA0485,ALT02606,2026-09-19,R008,Dormant Account Reactivation,ANL11,ANL12,61.0,32,19,Close - Explained Activity,Pass,None
+QA0486,ALT02584,2026-08-15,R001,Structuring / Cash Activity,ANL07,ANL12,91.0,51,8,Close - False Positive,Pass,None
+QA0487,ALT01920,2026-07-08,R006,P2P Funnel Activity,ANL07,ANL12,59.0,45,7,Close - Explained Activity,Pass,None
+QA0488,ALT01524,2026-02-12,R005,High-Value Wire,ANL04,ANL12,64.0,22,5,Escalate to Case,Pass,None
+QA0489,ALT02335,2026-08-04,R007,Cash Intensive Business,ANL11,ANL12,41.0,33,7,Escalate to Case,Pass,None
+QA0490,ALT03576,2026-04-03,R008,Dormant Account Reactivation,ANL12,ANL12,32.0,27,5,Escalate to Case,Pass,None
+QA0491,ALT00392,2026-02-21,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,40.0,47,2,Escalate to Case,Pass,None
+QA0492,ALT02917,2026-05-12,R006,P2P Funnel Activity,ANL03,ANL12,76.0,33,10,Escalate to Case,Pass,None
+QA0493,ALT01603,2026-02-21,R003,Rapid Movement of Funds,ANL04,ANL12,55.0,35,3,Escalate to Case,Pass,None
+QA0494,ALT00161,2026-07-20,R001,Structuring / Cash Activity,ANL03,ANL12,47.0,47,10,Close - Explained Activity,Pass,None
+QA0495,ALT03397,2026-01-31,R001,Structuring / Cash Activity,ANL11,ANL12,61.0,18,15,Close - False Positive,Pass,None
+QA0496,ALT01356,2026-09-06,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,41.0,11,5,Escalate to Case,Pass,None
+QA0497,ALT00701,2026-09-05,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,81.0,43,8,Close - False Positive,Pass,None
+QA0498,ALT01686,2026-01-08,R006,P2P Funnel Activity,ANL10,ANL12,70.0,47,12,Close - False Positive,Pass,None
+QA0499,ALT02458,2026-01-06,R004,Unusual Volume Increase,ANL03,ANL12,37.0,22,15,Close - False Positive,Fail,Insufficient Narrative
+QA0500,ALT02196,2026-05-07,R003,Rapid Movement of Funds,ANL07,ANL12,38.0,45,11,Close - False Positive,Pass,None
+QA0501,ALT01389,2026-02-06,R006,P2P Funnel Activity,ANL04,ANL12,69.0,28,9,Escalate to Case,Fail,KYC Context Missing
+QA0502,ALT03237,2026-07-13,R004,Unusual Volume Increase,ANL09,ANL12,69.0,35,18,Close - Explained Activity,Pass,None
+QA0503,ALT00203,2026-05-26,R003,Rapid Movement of Funds,ANL02,ANL12,41.0,22,8,Close - False Positive,Pass,None
+QA0504,ALT00928,2026-03-04,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,32.0,46,9,Close - False Positive,Pass,None
+QA0505,ALT02750,2026-03-19,R006,P2P Funnel Activity,ANL02,ANL12,49.0,24,17,Escalate to Case,Pass,None
+QA0506,ALT00508,2026-09-11,R007,Cash Intensive Business,ANL02,ANL12,14.0,48,18,Close - False Positive,Pass,None
+QA0507,ALT01583,2026-03-04,R003,Rapid Movement of Funds,ANL01,ANL12,56.0,14,1,Escalate to Case,Pass,None
+QA0508,ALT03016,2026-09-23,R007,Cash Intensive Business,ANL07,ANL12,91.0,27,14,Close - Explained Activity,Pass,None
+QA0509,ALT01886,2026-07-15,R003,Rapid Movement of Funds,ANL07,ANL12,32.0,30,16,Escalate to Case,Pass,None
+QA0510,ALT01518,2026-03-08,R001,Structuring / Cash Activity,ANL02,ANL12,80.0,35,21,Close - False Positive,Pass,None
+QA0511,ALT00981,2026-05-20,R004,Unusual Volume Increase,ANL02,ANL12,60.0,72,18,Close - False Positive,Pass,None
+QA0512,ALT01395,2026-02-05,R008,Dormant Account Reactivation,ANL06,ANL12,74.0,47,5,Close - False Positive,Pass,None
+QA0513,ALT02747,2026-08-15,R008,Dormant Account Reactivation,ANL09,ANL12,100.0,34,16,Close - False Positive,Pass,None
+QA0514,ALT02227,2026-06-07,R004,Unusual Volume Increase,ANL04,ANL12,53.0,54,7,Escalate to Case,Fail,Incomplete Transaction Review
+QA0515,ALT01540,2026-07-19,R005,High-Value Wire,ANL12,ANL12,54.0,40,10,Close - False Positive,Pass,None
+QA0516,ALT00333,2026-01-16,R007,Cash Intensive Business,ANL01,ANL12,47.0,48,1,Close - False Positive,Pass,None
+QA0517,ALT01132,2026-07-06,R005,High-Value Wire,ANL06,ANL12,48.0,35,17,Escalate to Case,Pass,None
+QA0518,ALT02515,2026-05-21,R003,Rapid Movement of Funds,ANL10,ANL12,45.0,46,17,Close - False Positive,Pass,None
+QA0519,ALT01804,2026-02-24,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,45.0,41,18,Escalate to Case,Pass,None
+QA0520,ALT03502,2026-05-23,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,54.0,55,13,Escalate to Case,Pass,None
+QA0521,ALT02356,2026-08-01,R001,Structuring / Cash Activity,ANL12,ANL12,94.0,8,21,Escalate to Case,Pass,None
+QA0522,ALT02032,2026-09-14,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,68.0,24,19,Close - False Positive,Pass,None
+QA0523,ALT01084,2026-03-04,R007,Cash Intensive Business,ANL06,ANL12,64.0,39,8,Escalate to Case,Pass,None
+QA0524,ALT01931,2026-08-17,R001,Structuring / Cash Activity,ANL05,ANL12,63.0,42,10,Close - False Positive,Pass,None
+QA0525,ALT00575,2026-04-25,R001,Structuring / Cash Activity,ANL08,ANL12,96.0,38,6,Escalate to Case,Pass,None
+QA0526,ALT02431,2026-08-28,R007,Cash Intensive Business,ANL11,ANL12,49.0,18,4,Close - Explained Activity,Pass,None
+QA0527,ALT01601,2026-04-22,R007,Cash Intensive Business,ANL10,ANL12,59.0,38,14,Close - False Positive,Pass,None
+QA0528,ALT00483,2026-03-17,R007,Cash Intensive Business,ANL05,ANL12,62.0,24,4,Close - False Positive,Pass,None
+QA0529,ALT01153,2026-01-06,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,42.0,58,3,Close - Explained Activity,Pass,None
+QA0530,ALT02059,2026-03-23,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,35.0,55,19,Close - Explained Activity,Pass,None
+QA0531,ALT03268,2026-07-30,R005,High-Value Wire,ANL03,ANL12,39.0,45,9,Close - False Positive,Fail,Insufficient Narrative
+QA0532,ALT01788,2026-08-26,R005,High-Value Wire,ANL01,ANL12,42.0,34,14,Close - False Positive,Pass,None
+QA0533,ALT00191,2026-09-21,R001,Structuring / Cash Activity,ANL10,ANL12,68.0,40,19,Close - False Positive,Pass,None
+QA0534,ALT02183,2026-04-10,R006,P2P Funnel Activity,ANL06,ANL12,79.0,54,2,Escalate to Case,Pass,None
+QA0535,ALT01791,2026-02-17,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,46.0,12,4,Close - False Positive,Pass,None
+QA0536,ALT00025,2026-02-21,R008,Dormant Account Reactivation,ANL12,ANL12,89.0,39,11,Close - False Positive,Pass,None
+QA0537,ALT00841,2026-02-10,R005,High-Value Wire,ANL02,ANL12,63.0,53,6,Close - Explained Activity,Fail,Insufficient Narrative
+QA0538,ALT02151,2026-02-14,R001,Structuring / Cash Activity,ANL07,ANL12,81.0,56,2,Escalate to Case,Pass,None
+QA0539,ALT03184,2026-08-06,R008,Dormant Account Reactivation,ANL07,ANL12,57.0,49,8,Close - False Positive,Pass,None
+QA0540,ALT01874,2026-04-04,R008,Dormant Account Reactivation,ANL11,ANL12,70.0,46,7,Close - False Positive,Pass,None
+QA0541,ALT02235,2026-07-18,R004,Unusual Volume Increase,ANL11,ANL12,22.0,29,4,Close - False Positive,Pass,None
+QA0542,ALT01347,2026-04-07,R003,Rapid Movement of Funds,ANL01,ANL12,49.0,49,11,Close - False Positive,Pass,None
+QA0543,ALT03509,2026-06-13,R001,Structuring / Cash Activity,ANL01,ANL12,56.0,54,16,Escalate to Case,Pass,None
+QA0544,ALT03492,2026-05-11,R001,Structuring / Cash Activity,ANL03,ANL12,44.0,41,5,Close - Explained Activity,Pass,None
+QA0545,ALT00353,2026-03-20,R001,Structuring / Cash Activity,ANL05,ANL12,46.0,28,8,Close - False Positive,Pass,None
+QA0546,ALT02764,2026-05-16,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,73.0,33,4,Escalate to Case,Pass,None
+QA0547,ALT00089,2026-04-01,R006,P2P Funnel Activity,ANL10,ANL12,56.0,59,2,Close - False Positive,Fail,Disposition Not Supported
+QA0548,ALT03338,2026-06-01,R001,Structuring / Cash Activity,ANL10,ANL12,70.0,50,14,Close - False Positive,Fail,Insufficient Narrative
+QA0549,ALT00790,2026-01-06,R005,High-Value Wire,ANL02,ANL12,75.0,39,12,Escalate to Case,Pass,None
+QA0550,ALT01300,2026-03-21,R001,Structuring / Cash Activity,ANL03,ANL12,92.0,59,11,Escalate to Case,Pass,None
+QA0551,ALT00036,2026-03-06,R002,High-Risk Jurisdiction Wire,ANL02,ANL12,80.0,42,10,Escalate to Case,Pass,None
+QA0552,ALT00447,2026-04-18,R004,Unusual Volume Increase,ANL02,ANL12,31.0,48,5,Close - False Positive,Pass,None
+QA0553,ALT03277,2026-07-07,R001,Structuring / Cash Activity,ANL02,ANL12,12.0,8,7,Close - False Positive,Pass,None
+QA0554,ALT00739,2026-06-01,R003,Rapid Movement of Funds,ANL03,ANL12,43.0,43,4,Close - False Positive,Fail,KYC Context Missing
+QA0555,ALT01139,2026-08-17,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,51.0,15,5,Close - False Positive,Pass,None
+QA0556,ALT01730,2026-03-31,R005,High-Value Wire,ANL10,ANL12,64.0,26,11,Escalate to Case,Pass,None
+QA0557,ALT03439,2026-06-28,R006,P2P Funnel Activity,ANL09,ANL12,29.0,52,7,Close - False Positive,Pass,None
+QA0558,ALT02159,2026-09-29,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,48.0,23,15,Close - Explained Activity,Pass,None
+QA0559,ALT00857,2026-07-14,R005,High-Value Wire,ANL04,ANL12,31.0,53,7,Escalate to Case,Fail,Disposition Not Supported
+QA0560,ALT02162,2026-03-31,R001,Structuring / Cash Activity,ANL01,ANL12,71.0,56,3,Escalate to Case,Fail,Escalation Rationale Weak
+QA0561,ALT01477,2026-05-21,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,51.0,35,5,Close - False Positive,Pass,None
+QA0562,ALT01761,2026-03-27,R003,Rapid Movement of Funds,ANL11,ANL12,86.0,56,4,Escalate to Case,Pass,None
+QA0563,ALT00782,2026-04-01,R003,Rapid Movement of Funds,ANL06,ANL12,19.0,23,10,Close - Explained Activity,Pass,None
+QA0564,ALT01398,2026-09-15,R005,High-Value Wire,ANL01,ANL12,59.0,52,2,Close - Explained Activity,Pass,None
+QA0565,ALT02488,2026-04-08,R007,Cash Intensive Business,ANL09,ANL12,55.0,29,1,Close - False Positive,Pass,None
+QA0566,ALT02582,2026-08-12,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,63.0,48,10,Escalate to Case,Pass,None
+QA0567,ALT00081,2026-01-18,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,44.0,37,3,Escalate to Case,Pass,None
+QA0568,ALT01057,2026-03-19,R003,Rapid Movement of Funds,ANL10,ANL12,91.0,36,8,Close - False Positive,Pass,None
+QA0569,ALT02915,2026-07-14,R003,Rapid Movement of Funds,ANL09,ANL12,86.0,17,4,Close - False Positive,Pass,None
+QA0570,ALT02986,2026-02-21,R006,P2P Funnel Activity,ANL08,ANL12,82.0,16,14,Close - False Positive,Fail,KYC Context Missing
+QA0571,ALT03244,2026-04-28,R001,Structuring / Cash Activity,ANL06,ANL12,51.0,30,1,Close - False Positive,Pass,None
+QA0572,ALT03371,2026-08-22,R003,Rapid Movement of Funds,ANL05,ANL12,54.0,44,4,Escalate to Case,Pass,None
+QA0573,ALT01453,2026-03-04,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,51.0,44,7,Close - Explained Activity,Pass,None
+QA0574,ALT01966,2026-04-15,R003,Rapid Movement of Funds,ANL09,ANL12,90.0,32,9,Close - False Positive,Pass,None
+QA0575,ALT01165,2026-08-20,R004,Unusual Volume Increase,ANL04,ANL12,75.0,29,5,Close - False Positive,Fail,Insufficient Narrative
+QA0576,ALT01562,2026-06-21,R001,Structuring / Cash Activity,ANL06,ANL12,61.0,32,22,Close - False Positive,Pass,None
+QA0577,ALT02337,2026-01-31,R001,Structuring / Cash Activity,ANL07,ANL12,50.0,25,6,Close - False Positive,Pass,None
+QA0578,ALT02507,2026-08-16,R008,Dormant Account Reactivation,ANL08,ANL12,27.0,39,3,Close - Explained Activity,Pass,None
+QA0579,ALT01264,2026-08-02,R004,Unusual Volume Increase,ANL09,ANL12,78.0,10,14,Close - False Positive,Pass,None
+QA0580,ALT00604,2026-09-01,R004,Unusual Volume Increase,ANL06,ANL12,51.0,45,3,Close - False Positive,Pass,None
+QA0581,ALT00550,2026-02-13,R001,Structuring / Cash Activity,ANL11,ANL12,69.0,22,11,Escalate to Case,Pass,None
+QA0582,ALT01720,2026-04-25,R005,High-Value Wire,ANL07,ANL12,58.0,42,12,Escalate to Case,Pass,None
+QA0583,ALT01976,2026-02-21,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,39.0,39,10,Close - False Positive,Pass,None
+QA0584,ALT03362,2026-04-18,R001,Structuring / Cash Activity,ANL07,ANL12,59.0,50,12,Close - Explained Activity,Pass,None
+QA0585,ALT02189,2026-01-01,R005,High-Value Wire,ANL03,ANL12,53.0,35,16,Close - False Positive,Pass,None
+QA0586,ALT00645,2026-09-23,R006,P2P Funnel Activity,ANL07,ANL12,67.0,44,4,Close - Explained Activity,Pass,None
+QA0587,ALT01925,2026-08-03,R002,High-Risk Jurisdiction Wire,ANL09,ANL12,68.0,42,7,Close - Explained Activity,Pass,None
+QA0588,ALT01090,2026-08-13,R004,Unusual Volume Increase,ANL01,ANL12,75.0,33,10,Close - False Positive,Pass,None
+QA0589,ALT02536,2026-04-03,R003,Rapid Movement of Funds,ANL12,ANL12,72.0,37,9,Close - False Positive,Pass,None
+QA0590,ALT01838,2026-03-26,R004,Unusual Volume Increase,ANL08,ANL12,54.0,11,20,Close - False Positive,Pass,None
+QA0591,ALT00671,2026-03-12,R008,Dormant Account Reactivation,ANL08,ANL12,56.0,59,15,Close - Explained Activity,Pass,None
+QA0592,ALT01585,2026-03-22,R006,P2P Funnel Activity,ANL08,ANL12,40.0,60,6,Escalate to Case,Pass,None
+QA0593,ALT03305,2026-08-09,R006,P2P Funnel Activity,ANL02,ANL12,74.0,24,12,Close - False Positive,Pass,None
+QA0594,ALT02714,2026-07-11,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,28.0,33,6,Close - False Positive,Pass,None
+QA0595,ALT03290,2026-09-16,R002,High-Risk Jurisdiction Wire,ANL02,ANL12,50.0,46,17,Escalate to Case,Pass,None
+QA0596,ALT00969,2026-03-28,R001,Structuring / Cash Activity,ANL04,ANL12,57.0,32,12,Close - False Positive,Fail,Escalation Rationale Weak
+QA0597,ALT02088,2026-02-14,R005,High-Value Wire,ANL04,ANL12,70.0,14,5,Close - False Positive,Pass,None
+QA0598,ALT02894,2026-06-21,R007,Cash Intensive Business,ANL09,ANL12,77.0,24,5,Close - False Positive,Pass,None
+QA0599,ALT03178,2026-02-06,R008,Dormant Account Reactivation,ANL03,ANL12,68.0,46,8,Close - Explained Activity,Pass,None
+QA0600,ALT01561,2026-09-28,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,49.0,26,5,Close - False Positive,Pass,None
+QA0601,ALT00088,2026-01-22,R003,Rapid Movement of Funds,ANL10,ANL12,89.0,29,13,Close - False Positive,Pass,None
+QA0602,ALT00256,2026-05-16,R008,Dormant Account Reactivation,ANL02,ANL12,82.0,21,3,Close - Explained Activity,Pass,None
+QA0603,ALT01699,2026-09-11,R001,Structuring / Cash Activity,ANL10,ANL12,85.0,21,4,Close - False Positive,Pass,None
+QA0604,ALT01357,2026-09-25,R001,Structuring / Cash Activity,ANL03,ANL12,55.0,16,9,Close - False Positive,Pass,None
+QA0605,ALT00788,2026-09-28,R006,P2P Funnel Activity,ANL04,ANL12,53.0,31,7,Close - False Positive,Pass,None
+QA0606,ALT00915,2026-05-07,R004,Unusual Volume Increase,ANL04,ANL12,74.0,27,10,Close - False Positive,Fail,KYC Context Missing
+QA0607,ALT00658,2026-05-14,R003,Rapid Movement of Funds,ANL02,ANL12,67.0,10,8,Close - False Positive,Pass,None
+QA0608,ALT01496,2026-04-23,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,50.0,43,26,Close - Explained Activity,Pass,None
+QA0609,ALT00072,2026-03-14,R004,Unusual Volume Increase,ANL04,ANL12,54.0,56,10,Close - False Positive,Pass,None
+QA0610,ALT00797,2026-06-30,R003,Rapid Movement of Funds,ANL11,ANL12,79.0,9,18,Close - False Positive,Pass,None
+QA0611,ALT01367,2026-02-14,R004,Unusual Volume Increase,ANL07,ANL12,60.0,44,5,Close - False Positive,Pass,None
+QA0612,ALT02447,2026-02-11,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,45.0,71,16,Close - False Positive,Pass,None
+QA0613,ALT00269,2026-03-08,R008,Dormant Account Reactivation,ANL06,ANL12,61.0,18,7,Close - Explained Activity,Pass,None
+QA0614,ALT02460,2026-05-14,R001,Structuring / Cash Activity,ANL08,ANL12,42.0,45,10,Close - False Positive,Pass,None
+QA0615,ALT00877,2026-04-30,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,87.0,40,14,Escalate to Case,Pass,None
+QA0616,ALT03055,2026-02-13,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,79.0,60,9,Close - Explained Activity,Pass,None
+QA0617,ALT02325,2026-04-01,R001,Structuring / Cash Activity,ANL10,ANL12,77.0,42,1,Escalate to Case,Pass,None
+QA0618,ALT00986,2026-07-01,R008,Dormant Account Reactivation,ANL03,ANL12,61.0,20,10,Escalate to Case,Pass,None
+QA0619,ALT02800,2026-02-10,R004,Unusual Volume Increase,ANL09,ANL12,51.0,44,10,Close - False Positive,Pass,None
+QA0620,ALT01721,2026-02-14,R005,High-Value Wire,ANL03,ANL12,64.0,42,10,Escalate to Case,Pass,None
+QA0621,ALT00121,2026-05-06,R001,Structuring / Cash Activity,ANL01,ANL12,56.0,37,5,Close - False Positive,Pass,None
+QA0622,ALT01651,2026-07-20,R003,Rapid Movement of Funds,ANL10,ANL12,77.0,46,4,Close - False Positive,Pass,None
+QA0623,ALT02432,2026-07-19,R004,Unusual Volume Increase,ANL08,ANL12,73.0,28,13,Close - False Positive,Pass,None
+QA0624,ALT02951,2026-02-26,R005,High-Value Wire,ANL12,ANL12,33.0,18,4,Escalate to Case,Pass,None
+QA0625,ALT03470,2026-05-15,R004,Unusual Volume Increase,ANL04,ANL12,42.0,26,1,Escalate to Case,Pass,None
+QA0626,ALT02115,2026-03-25,R005,High-Value Wire,ANL08,ANL12,31.0,30,2,Close - False Positive,Pass,None
+QA0627,ALT00143,2026-08-01,R008,Dormant Account Reactivation,ANL03,ANL12,52.0,73,15,Escalate to Case,Pass,None
+QA0628,ALT01807,2026-02-17,R008,Dormant Account Reactivation,ANL03,ANL12,64.0,21,15,Escalate to Case,Pass,None
+QA0629,ALT03498,2026-03-03,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,51.0,37,3,Escalate to Case,Pass,None
+QA0630,ALT00983,2026-02-26,R003,Rapid Movement of Funds,ANL05,ANL12,67.0,8,12,Close - False Positive,Pass,None
+QA0631,ALT01352,2026-04-09,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,47.0,50,8,Close - False Positive,Pass,None
+QA0632,ALT03405,2026-06-02,R005,High-Value Wire,ANL07,ANL12,55.0,48,9,Close - False Positive,Pass,None
+QA0633,ALT03564,2026-04-26,R006,P2P Funnel Activity,ANL09,ANL12,75.0,24,15,Close - False Positive,Fail,Insufficient Narrative
+QA0634,ALT01006,2026-01-22,R008,Dormant Account Reactivation,ANL11,ANL12,84.0,19,17,Close - False Positive,Pass,None
+QA0635,ALT00354,2026-01-06,R004,Unusual Volume Increase,ANL02,ANL12,59.0,33,4,Close - False Positive,Pass,None
+QA0636,ALT01816,2026-09-28,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,59.0,36,4,Close - Explained Activity,Pass,None
+QA0637,ALT02598,2026-03-19,R004,Unusual Volume Increase,ANL11,ANL12,79.0,21,35,Close - False Positive,Fail,Disposition Not Supported
+QA0638,ALT01259,2026-09-28,R003,Rapid Movement of Funds,ANL01,ANL12,39.0,48,21,Close - False Positive,Pass,None
+QA0639,ALT00082,2026-06-02,R001,Structuring / Cash Activity,ANL02,ANL12,27.0,33,3,Close - False Positive,Pass,None
+QA0640,ALT03407,2026-07-22,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,42.0,45,4,Close - False Positive,Pass,None
+QA0641,ALT00979,2026-06-16,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,56.0,18,7,Close - False Positive,Pass,None
+QA0642,ALT02742,2026-03-11,R001,Structuring / Cash Activity,ANL07,ANL12,22.0,43,12,Close - False Positive,Fail,Insufficient Narrative
+QA0643,ALT01747,2026-01-22,R005,High-Value Wire,ANL07,ANL12,55.0,54,3,Close - Explained Activity,Pass,None
+QA0644,ALT00405,2026-03-16,R001,Structuring / Cash Activity,ANL02,ANL12,42.0,20,13,Close - False Positive,Pass,None
+QA0645,ALT00012,2026-08-23,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,61.0,39,11,Escalate to Case,Pass,None
+QA0646,ALT02131,2026-04-10,R001,Structuring / Cash Activity,ANL04,ANL12,42.0,8,7,Close - False Positive,Fail,KYC Context Missing
+QA0647,ALT02095,2026-08-23,R006,P2P Funnel Activity,ANL06,ANL12,69.0,32,3,Close - False Positive,Pass,None
+QA0648,ALT03270,2026-09-03,R003,Rapid Movement of Funds,ANL07,ANL12,38.0,36,10,Close - Explained Activity,Pass,None
+QA0649,ALT02698,2026-02-16,R001,Structuring / Cash Activity,ANL07,ANL12,56.0,55,5,Close - False Positive,Pass,None
+QA0650,ALT01374,2026-09-13,R006,P2P Funnel Activity,ANL12,ANL12,44.0,27,4,Close - False Positive,Pass,None
+QA0651,ALT00305,2026-09-09,R003,Rapid Movement of Funds,ANL02,ANL12,77.0,47,5,Close - False Positive,Pass,None
+QA0652,ALT00130,2026-03-22,R001,Structuring / Cash Activity,ANL01,ANL12,57.0,23,12,Close - False Positive,Fail,Escalation Rationale Weak
+QA0653,ALT00325,2026-06-13,R005,High-Value Wire,ANL09,ANL12,58.0,57,5,Close - False Positive,Pass,None
+QA0654,ALT01738,2026-02-14,R005,High-Value Wire,ANL09,ANL12,100.0,35,21,Close - Explained Activity,Pass,None
+QA0655,ALT00276,2026-05-31,R001,Structuring / Cash Activity,ANL02,ANL12,67.0,31,10,Escalate to Case,Pass,None
+QA0656,ALT00211,2026-08-22,R004,Unusual Volume Increase,ANL08,ANL12,43.0,45,9,Close - False Positive,Pass,None
+QA0657,ALT01779,2026-09-21,R004,Unusual Volume Increase,ANL11,ANL12,52.0,46,10,Close - False Positive,Pass,None
+QA0658,ALT03433,2026-07-24,R005,High-Value Wire,ANL01,ANL12,43.0,56,6,Escalate to Case,Pass,None
+QA0659,ALT03046,2026-01-20,R004,Unusual Volume Increase,ANL02,ANL12,79.0,28,1,Escalate to Case,Fail,KYC Context Missing
+QA0660,ALT00745,2026-01-02,R001,Structuring / Cash Activity,ANL07,ANL12,60.0,40,9,Escalate to Case,Pass,None
+QA0661,ALT00918,2026-07-31,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,52.0,38,21,Escalate to Case,Pass,None
+QA0662,ALT02922,2026-07-14,R002,High-Risk Jurisdiction Wire,ANL02,ANL12,99.0,50,2,Escalate to Case,Pass,None
+QA0663,ALT01466,2026-08-03,R003,Rapid Movement of Funds,ANL06,ANL12,64.0,35,1,Escalate to Case,Pass,None
+QA0664,ALT02532,2026-09-06,R005,High-Value Wire,ANL10,ANL12,83.0,24,9,Close - Explained Activity,Pass,None
+QA0665,ALT00298,2026-04-08,R003,Rapid Movement of Funds,ANL07,ANL12,79.0,39,3,Close - False Positive,Fail,Incomplete Transaction Review
+QA0666,ALT00859,2026-08-05,R001,Structuring / Cash Activity,ANL08,ANL12,27.0,31,15,Close - Explained Activity,Pass,None
+QA0667,ALT03074,2026-01-20,R004,Unusual Volume Increase,ANL10,ANL12,43.0,24,3,Close - False Positive,Pass,None
+QA0668,ALT00065,2026-06-27,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,57.0,31,6,Escalate to Case,Pass,None
+QA0669,ALT03554,2026-09-01,R004,Unusual Volume Increase,ANL10,ANL12,59.0,26,2,Close - False Positive,Pass,None
+QA0670,ALT02967,2026-03-21,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,50.0,37,10,Escalate to Case,Fail,Disposition Not Supported
+QA0671,ALT01001,2026-03-15,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,58.0,67,12,Close - False Positive,Pass,None
+QA0672,ALT00040,2026-06-24,R006,P2P Funnel Activity,ANL10,ANL12,42.0,41,6,Close - False Positive,Pass,None
+QA0673,ALT01896,2026-09-14,R006,P2P Funnel Activity,ANL05,ANL12,96.0,31,4,Escalate to Case,Pass,None
+QA0674,ALT02158,2026-07-16,R006,P2P Funnel Activity,ANL05,ANL12,49.0,35,2,Close - False Positive,Pass,None
+QA0675,ALT03329,2026-06-18,R006,P2P Funnel Activity,ANL01,ANL12,44.0,47,15,Escalate to Case,Pass,None
+QA0676,ALT02407,2026-03-10,R001,Structuring / Cash Activity,ANL02,ANL12,88.0,29,18,Close - Explained Activity,Pass,None
+QA0677,ALT01177,2026-02-26,R001,Structuring / Cash Activity,ANL05,ANL12,42.0,32,4,Close - False Positive,Pass,None
+QA0678,ALT00453,2026-07-04,R001,Structuring / Cash Activity,ANL09,ANL12,66.0,57,5,Close - False Positive,Pass,None
+QA0679,ALT03369,2026-09-18,R007,Cash Intensive Business,ANL01,ANL12,23.0,35,12,Close - Explained Activity,Pass,None
+QA0680,ALT00807,2026-02-08,R006,P2P Funnel Activity,ANL10,ANL12,79.0,16,9,Escalate to Case,Fail,Incomplete Transaction Review
+QA0681,ALT00323,2026-07-11,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,43.0,42,12,Close - False Positive,Pass,None
+QA0682,ALT01993,2026-02-19,R004,Unusual Volume Increase,ANL08,ANL12,46.0,31,4,Close - False Positive,Pass,None
+QA0683,ALT01758,2026-04-13,R004,Unusual Volume Increase,ANL12,ANL12,32.0,56,12,Close - False Positive,Pass,None
+QA0684,ALT01047,2026-08-06,R004,Unusual Volume Increase,ANL08,ANL12,56.0,34,4,Close - False Positive,Pass,None
+QA0685,ALT02414,2026-02-26,R008,Dormant Account Reactivation,ANL01,ANL12,70.0,28,6,Close - False Positive,Fail,Incomplete Transaction Review
+QA0686,ALT02636,2026-04-14,R008,Dormant Account Reactivation,ANL09,ANL12,69.0,51,11,Close - False Positive,Pass,None
+QA0687,ALT03534,2026-06-11,R004,Unusual Volume Increase,ANL09,ANL12,38.0,22,13,Escalate to Case,Pass,None
+QA0688,ALT03561,2026-03-13,R004,Unusual Volume Increase,ANL05,ANL12,58.0,20,14,Close - Explained Activity,Pass,None
+QA0689,ALT01272,2026-05-08,R005,High-Value Wire,ANL05,ANL12,66.0,46,3,Escalate to Case,Fail,Insufficient Narrative
+QA0690,ALT01778,2026-02-28,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,38.0,54,27,Close - False Positive,Pass,None
+QA0691,ALT01410,2026-02-10,R006,P2P Funnel Activity,ANL08,ANL12,42.0,24,3,Close - False Positive,Pass,None
+QA0692,ALT03395,2026-09-15,R004,Unusual Volume Increase,ANL07,ANL12,73.0,47,6,Escalate to Case,Pass,None
+QA0693,ALT00434,2026-08-11,R001,Structuring / Cash Activity,ANL05,ANL12,78.0,52,8,Close - False Positive,Pass,None
+QA0694,ALT00205,2026-02-07,R008,Dormant Account Reactivation,ANL11,ANL12,52.0,34,3,Close - Explained Activity,Pass,None
+QA0695,ALT00992,2026-06-08,R001,Structuring / Cash Activity,ANL03,ANL12,86.0,51,4,Close - False Positive,Pass,None
+QA0696,ALT03215,2026-06-04,R004,Unusual Volume Increase,ANL10,ANL12,68.0,58,16,Close - False Positive,Pass,None
+QA0697,ALT00400,2026-08-18,R004,Unusual Volume Increase,ANL07,ANL12,50.0,39,15,Close - False Positive,Pass,None
+QA0698,ALT00102,2026-02-03,R003,Rapid Movement of Funds,ANL09,ANL12,47.0,12,4,Close - False Positive,Pass,None
+QA0699,ALT02523,2026-04-15,R007,Cash Intensive Business,ANL03,ANL12,74.0,54,2,Close - False Positive,Pass,None
+QA0700,ALT02143,2026-01-25,R002,High-Risk Jurisdiction Wire,ANL02,ANL12,80.0,64,3,Escalate to Case,Pass,None
+QA0701,ALT02373,2026-02-05,R006,P2P Funnel Activity,ANL12,ANL12,45.0,52,13,Close - False Positive,Pass,None
+QA0702,ALT01805,2026-09-12,R003,Rapid Movement of Funds,ANL03,ANL12,37.0,17,3,Close - False Positive,Pass,None
+QA0703,ALT02113,2026-03-22,R001,Structuring / Cash Activity,ANL03,ANL12,45.0,50,2,Escalate to Case,Pass,None
+QA0704,ALT00641,2026-06-28,R008,Dormant Account Reactivation,ANL05,ANL12,46.0,31,4,Close - Explained Activity,Fail,Incomplete Transaction Review
+QA0705,ALT01654,2026-02-21,R004,Unusual Volume Increase,ANL06,ANL12,61.0,72,5,Close - False Positive,Pass,None
+QA0706,ALT03066,2026-08-05,R001,Structuring / Cash Activity,ANL03,ANL12,55.0,27,12,Escalate to Case,Pass,None
+QA0707,ALT03339,2026-09-29,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,73.0,44,6,Close - Explained Activity,Pass,None
+QA0708,ALT02825,2026-05-01,R004,Unusual Volume Increase,ANL02,ANL12,72.0,55,2,Close - False Positive,Pass,None
+QA0709,ALT00030,2026-01-25,R006,P2P Funnel Activity,ANL05,ANL12,62.0,8,1,Escalate to Case,Pass,None
+QA0710,ALT01338,2026-05-10,R004,Unusual Volume Increase,ANL09,ANL12,51.0,38,2,Close - False Positive,Fail,Incomplete Transaction Review
+QA0711,ALT02853,2026-02-24,R004,Unusual Volume Increase,ANL10,ANL12,43.0,43,13,Close - False Positive,Fail,Incomplete Transaction Review
+QA0712,ALT02829,2026-01-04,R004,Unusual Volume Increase,ANL12,ANL12,38.0,48,3,Close - False Positive,Fail,KYC Context Missing
+QA0713,ALT00208,2026-01-21,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,60.0,52,3,Close - False Positive,Pass,None
+QA0714,ALT02498,2026-03-02,R003,Rapid Movement of Funds,ANL10,ANL12,96.0,9,4,Close - False Positive,Pass,None
+QA0715,ALT03043,2026-07-25,R004,Unusual Volume Increase,ANL12,ANL12,81.0,22,17,Close - False Positive,Pass,None
+QA0716,ALT02969,2026-01-21,R006,P2P Funnel Activity,ANL02,ANL12,66.0,18,13,Escalate to Case,Pass,None
+QA0717,ALT00667,2026-04-29,R001,Structuring / Cash Activity,ANL06,ANL12,74.0,42,11,Close - False Positive,Pass,None
+QA0718,ALT02971,2026-01-30,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,79.0,20,5,Close - False Positive,Pass,None
+QA0719,ALT00553,2026-06-01,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,73.0,39,11,Close - Explained Activity,Pass,None
+QA0720,ALT01901,2026-09-03,R002,High-Risk Jurisdiction Wire,ANL02,ANL12,41.0,38,13,Close - False Positive,Pass,None
+QA0721,ALT00489,2026-04-04,R003,Rapid Movement of Funds,ANL09,ANL12,60.0,46,2,Close - False Positive,Pass,None
+QA0722,ALT02573,2026-09-23,R004,Unusual Volume Increase,ANL03,ANL12,66.0,39,8,Close - False Positive,Pass,None
+QA0723,ALT02071,2026-05-10,R007,Cash Intensive Business,ANL07,ANL12,77.0,20,6,Escalate to Case,Pass,None
+QA0724,ALT03080,2026-02-23,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,45.0,49,11,Close - False Positive,Pass,None
+QA0725,ALT02934,2026-04-03,R003,Rapid Movement of Funds,ANL05,ANL12,70.0,44,10,Close - Explained Activity,Fail,Insufficient Narrative
+QA0726,ALT00711,2026-05-17,R005,High-Value Wire,ANL05,ANL12,74.0,50,6,Close - False Positive,Pass,None
+QA0727,ALT00381,2026-05-28,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,73.0,9,5,Close - False Positive,Pass,None
+QA0728,ALT01527,2026-04-12,R005,High-Value Wire,ANL06,ANL12,58.0,44,3,Escalate to Case,Pass,None
+QA0729,ALT02806,2026-02-12,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,52.0,37,8,Escalate to Case,Pass,None
+QA0730,ALT01358,2026-01-05,R005,High-Value Wire,ANL09,ANL12,72.0,18,5,Escalate to Case,Pass,None
+QA0731,ALT02641,2026-05-14,R005,High-Value Wire,ANL01,ANL12,100.0,28,6,Close - False Positive,Pass,None
+QA0732,ALT01296,2026-06-09,R005,High-Value Wire,ANL04,ANL12,57.0,59,4,Escalate to Case,Pass,None
+QA0733,ALT03380,2026-03-10,R003,Rapid Movement of Funds,ANL11,ANL12,45.0,30,4,Escalate to Case,Pass,None
+QA0734,ALT03273,2026-03-19,R001,Structuring / Cash Activity,ANL10,ANL12,92.0,45,11,Close - False Positive,Pass,None
+QA0735,ALT01879,2026-03-30,R006,P2P Funnel Activity,ANL08,ANL12,81.0,54,5,Escalate to Case,Pass,None
+QA0736,ALT01796,2026-02-17,R001,Structuring / Cash Activity,ANL06,ANL12,63.0,40,11,Close - False Positive,Pass,None
+QA0737,ALT01233,2026-07-17,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,67.0,22,5,Escalate to Case,Pass,None
+QA0738,ALT01638,2026-02-07,R004,Unusual Volume Increase,ANL06,ANL12,56.0,30,17,Escalate to Case,Fail,Incomplete Transaction Review
+QA0739,ALT03496,2026-01-01,R007,Cash Intensive Business,ANL03,ANL12,71.0,9,4,Close - False Positive,Pass,None
+QA0740,ALT00104,2026-03-07,R003,Rapid Movement of Funds,ANL08,ANL12,82.0,31,15,Escalate to Case,Pass,None
+QA0741,ALT02464,2026-01-11,R001,Structuring / Cash Activity,ANL05,ANL12,31.0,45,7,Escalate to Case,Pass,None
+QA0742,ALT03332,2026-06-12,R005,High-Value Wire,ANL10,ANL12,77.0,40,12,Close - Explained Activity,Pass,None
+QA0743,ALT03202,2026-03-15,R006,P2P Funnel Activity,ANL05,ANL12,62.0,36,3,Escalate to Case,Fail,Insufficient Narrative
+QA0744,ALT03310,2026-01-04,R007,Cash Intensive Business,ANL10,ANL12,41.0,19,8,Close - Explained Activity,Fail,Insufficient Narrative
+QA0745,ALT01003,2026-02-16,R008,Dormant Account Reactivation,ANL05,ANL12,67.0,21,3,Close - Explained Activity,Pass,None
+QA0746,ALT01065,2026-03-19,R005,High-Value Wire,ANL10,ANL12,50.0,38,14,Close - False Positive,Pass,None
+QA0747,ALT00885,2026-05-15,R005,High-Value Wire,ANL03,ANL12,52.0,53,12,Close - False Positive,Pass,None
+QA0748,ALT00539,2026-07-20,R007,Cash Intensive Business,ANL05,ANL12,40.0,42,16,Close - False Positive,Pass,None
+QA0749,ALT03044,2026-04-02,R001,Structuring / Cash Activity,ANL03,ANL12,63.0,57,2,Close - False Positive,Pass,None
+QA0750,ALT00337,2026-07-13,R005,High-Value Wire,ANL02,ANL12,78.0,72,20,Close - False Positive,Pass,None
+QA0751,ALT03031,2026-02-10,R001,Structuring / Cash Activity,ANL04,ANL12,78.0,48,9,Close - False Positive,Pass,None
+QA0752,ALT00079,2026-03-27,R004,Unusual Volume Increase,ANL02,ANL12,49.0,32,10,Escalate to Case,Pass,None
+QA0753,ALT00557,2026-08-17,R005,High-Value Wire,ANL10,ANL12,54.0,14,20,Escalate to Case,Pass,None
+QA0754,ALT03520,2026-05-30,R007,Cash Intensive Business,ANL09,ANL12,77.0,51,2,Close - Explained Activity,Pass,None
+QA0755,ALT00759,2026-09-12,R004,Unusual Volume Increase,ANL01,ANL12,48.0,28,13,Close - Explained Activity,Pass,None
+QA0756,ALT02422,2026-04-12,R008,Dormant Account Reactivation,ANL09,ANL12,49.0,29,5,Close - False Positive,Pass,None
+QA0757,ALT01142,2026-07-15,R003,Rapid Movement of Funds,ANL05,ANL12,63.0,68,10,Escalate to Case,Pass,None
+QA0758,ALT01744,2026-07-14,R004,Unusual Volume Increase,ANL06,ANL12,69.0,28,7,Close - False Positive,Pass,None
+QA0759,ALT02786,2026-08-19,R007,Cash Intensive Business,ANL10,ANL12,80.0,46,7,Close - Explained Activity,Fail,Insufficient Narrative
+QA0760,ALT00019,2026-07-24,R008,Dormant Account Reactivation,ANL12,ANL12,44.0,16,7,Escalate to Case,Fail,Incomplete Transaction Review
+QA0761,ALT00090,2026-08-10,R007,Cash Intensive Business,ANL09,ANL12,34.0,11,8,Close - False Positive,Pass,None
+QA0762,ALT02444,2026-04-21,R001,Structuring / Cash Activity,ANL04,ANL12,36.0,41,11,Close - False Positive,Pass,None
+QA0763,ALT00607,2026-06-29,R001,Structuring / Cash Activity,ANL04,ANL12,38.0,54,27,Close - False Positive,Pass,None
+QA0764,ALT00016,2026-02-05,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,34.0,36,8,Close - False Positive,Pass,None
+QA0765,ALT03049,2026-04-23,R001,Structuring / Cash Activity,ANL01,ANL12,61.0,8,5,Close - False Positive,Pass,None
+QA0766,ALT02063,2026-02-13,R003,Rapid Movement of Funds,ANL03,ANL12,15.0,22,5,Close - False Positive,Pass,None
+QA0767,ALT02927,2026-07-08,R002,High-Risk Jurisdiction Wire,ANL11,ANL12,48.0,64,11,Close - False Positive,Pass,None
+QA0768,ALT00825,2026-05-26,R007,Cash Intensive Business,ANL11,ANL12,31.0,23,13,Close - False Positive,Pass,None
+QA0769,ALT02429,2026-06-29,R001,Structuring / Cash Activity,ANL05,ANL12,74.0,47,11,Close - False Positive,Pass,None
+QA0770,ALT02270,2026-02-02,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,46.0,56,20,Close - False Positive,Pass,None
+QA0771,ALT03099,2026-04-04,R003,Rapid Movement of Funds,ANL04,ANL12,66.0,53,7,Escalate to Case,Fail,Insufficient Narrative
+QA0772,ALT00207,2026-02-25,R003,Rapid Movement of Funds,ANL07,ANL12,69.0,29,4,Close - False Positive,Fail,Disposition Not Supported
+QA0773,ALT00549,2026-08-07,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,57.0,39,4,Close - False Positive,Pass,None
+QA0774,ALT02581,2026-04-28,R004,Unusual Volume Increase,ANL11,ANL12,50.0,33,9,Close - False Positive,Pass,None
+QA0775,ALT00018,2026-02-10,R003,Rapid Movement of Funds,ANL12,ANL12,26.0,25,2,Close - False Positive,Pass,None
+QA0776,ALT02225,2026-03-31,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,36.0,22,12,Close - Explained Activity,Pass,None
+QA0777,ALT02167,2026-07-31,R006,P2P Funnel Activity,ANL12,ANL12,43.0,52,6,Close - False Positive,Pass,None
+QA0778,ALT01439,2026-01-25,R005,High-Value Wire,ANL11,ANL12,94.0,20,8,Escalate to Case,Pass,None
+QA0779,ALT02949,2026-06-27,R008,Dormant Account Reactivation,ANL06,ANL12,68.0,23,4,Close - False Positive,Pass,None
+QA0780,ALT02596,2026-03-13,R001,Structuring / Cash Activity,ANL05,ANL12,81.0,8,2,Escalate to Case,Pass,None
+QA0781,ALT03146,2026-04-23,R003,Rapid Movement of Funds,ANL02,ANL12,91.0,37,27,Close - False Positive,Pass,None
+QA0782,ALT01151,2026-01-29,R005,High-Value Wire,ANL12,ANL12,19.0,43,5,Escalate to Case,Pass,None
+QA0783,ALT02731,2026-03-12,R004,Unusual Volume Increase,ANL07,ANL12,75.0,38,2,Escalate to Case,Pass,None
+QA0784,ALT03061,2026-02-24,R001,Structuring / Cash Activity,ANL08,ANL12,71.0,50,5,Close - False Positive,Fail,Insufficient Narrative
+QA0785,ALT02148,2026-02-24,R006,P2P Funnel Activity,ANL09,ANL12,55.0,39,19,Close - False Positive,Pass,None
+QA0786,ALT01700,2026-07-24,R008,Dormant Account Reactivation,ANL06,ANL12,61.0,14,8,Close - False Positive,Fail,Insufficient Narrative
+QA0787,ALT03568,2026-04-30,R006,P2P Funnel Activity,ANL10,ANL12,54.0,43,3,Close - False Positive,Pass,None
+QA0788,ALT03094,2026-04-15,R005,High-Value Wire,ANL12,ANL12,36.0,25,0,Close - False Positive,Fail,KYC Context Missing
+QA0789,ALT00943,2026-08-18,R007,Cash Intensive Business,ANL10,ANL12,27.0,19,10,Close - False Positive,Pass,None
+QA0790,ALT01902,2026-02-27,R007,Cash Intensive Business,ANL12,ANL12,74.0,46,13,Close - False Positive,Pass,None
+QA0791,ALT03186,2026-07-28,R004,Unusual Volume Increase,ANL01,ANL12,78.0,34,17,Close - False Positive,Pass,None
+QA0792,ALT01062,2026-04-20,R003,Rapid Movement of Funds,ANL03,ANL12,48.0,28,4,Escalate to Case,Pass,None
+QA0793,ALT03372,2026-03-10,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,85.0,60,4,Close - False Positive,Pass,None
+QA0794,ALT02645,2026-03-23,R007,Cash Intensive Business,ANL12,ANL12,43.0,54,1,Escalate to Case,Pass,None
+QA0795,ALT00311,2026-06-15,R005,High-Value Wire,ANL12,ANL12,61.0,26,22,Close - False Positive,Pass,None
+QA0796,ALT00930,2026-05-15,R003,Rapid Movement of Funds,ANL03,ANL12,59.0,58,15,Close - Explained Activity,Pass,None
+QA0797,ALT02003,2026-05-23,R005,High-Value Wire,ANL09,ANL12,51.0,31,11,Escalate to Case,Pass,None
+QA0798,ALT03526,2026-02-21,R007,Cash Intensive Business,ANL06,ANL12,65.0,41,3,Close - Explained Activity,Pass,None
+QA0799,ALT01005,2026-06-11,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,61.0,22,6,Close - False Positive,Pass,None
+QA0800,ALT01498,2026-08-27,R006,P2P Funnel Activity,ANL02,ANL12,44.0,41,6,Close - False Positive,Pass,None
+QA0801,ALT02205,2026-07-24,R005,High-Value Wire,ANL01,ANL12,78.0,27,21,Escalate to Case,Pass,None
+QA0802,ALT00189,2026-07-08,R007,Cash Intensive Business,ANL06,ANL12,39.0,49,6,Close - False Positive,Fail,Incomplete Transaction Review
+QA0803,ALT00595,2026-08-13,R006,P2P Funnel Activity,ANL07,ANL12,37.0,15,6,Close - False Positive,Pass,None
+QA0804,ALT00034,2026-04-16,R003,Rapid Movement of Funds,ANL06,ANL12,53.0,47,27,Close - Explained Activity,Fail,Disposition Not Supported
+QA0805,ALT02366,2026-06-03,R003,Rapid Movement of Funds,ANL12,ANL12,74.0,42,14,Escalate to Case,Pass,None
+QA0806,ALT03469,2026-02-24,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,47.0,48,10,Escalate to Case,Pass,None
+QA0807,ALT02213,2026-04-03,R005,High-Value Wire,ANL11,ANL12,35.0,22,9,Escalate to Case,Pass,None
+QA0808,ALT01246,2026-02-09,R001,Structuring / Cash Activity,ANL09,ANL12,62.0,36,9,Close - False Positive,Pass,None
+QA0809,ALT02219,2026-08-26,R003,Rapid Movement of Funds,ANL09,ANL12,64.0,56,28,Close - False Positive,Pass,None
+QA0810,ALT01662,2026-03-27,R003,Rapid Movement of Funds,ANL01,ANL12,52.0,20,9,Close - False Positive,Pass,None
+QA0811,ALT00622,2026-07-10,R003,Rapid Movement of Funds,ANL07,ANL12,52.0,38,23,Close - False Positive,Pass,None
+QA0812,ALT02138,2026-09-26,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,44.0,49,2,Close - False Positive,Pass,None
+QA0813,ALT02012,2026-09-20,R003,Rapid Movement of Funds,ANL06,ANL12,25.0,48,13,Close - Explained Activity,Fail,KYC Context Missing
+QA0814,ALT00605,2026-07-03,R007,Cash Intensive Business,ANL10,ANL12,65.0,55,16,Close - False Positive,Fail,Disposition Not Supported
+QA0815,ALT00517,2026-02-10,R003,Rapid Movement of Funds,ANL02,ANL12,51.0,8,11,Escalate to Case,Pass,None
+QA0816,ALT00419,2026-07-27,R006,P2P Funnel Activity,ANL06,ANL12,60.0,22,5,Close - False Positive,Pass,None
+QA0817,ALT02616,2026-01-07,R003,Rapid Movement of Funds,ANL11,ANL12,24.0,48,8,Close - Explained Activity,Pass,None
+QA0818,ALT00627,2026-09-05,R001,Structuring / Cash Activity,ANL12,ANL12,56.0,12,17,Close - False Positive,Pass,None
+QA0819,ALT00456,2026-02-16,R006,P2P Funnel Activity,ANL03,ANL12,37.0,32,5,Close - False Positive,Fail,Incomplete Transaction Review
+QA0820,ALT02987,2026-04-06,R004,Unusual Volume Increase,ANL01,ANL12,41.0,30,5,Close - False Positive,Pass,None
+QA0821,ALT01826,2026-06-07,R004,Unusual Volume Increase,ANL08,ANL12,69.0,52,8,Close - False Positive,Fail,KYC Context Missing
+QA0822,ALT03306,2026-02-27,R007,Cash Intensive Business,ANL03,ANL12,34.0,48,10,Close - False Positive,Pass,None
+QA0823,ALT01341,2026-08-01,R003,Rapid Movement of Funds,ANL11,ANL12,100.0,44,2,Close - False Positive,Fail,KYC Context Missing
+QA0824,ALT00731,2026-04-07,R008,Dormant Account Reactivation,ANL05,ANL12,68.0,37,5,Close - False Positive,Pass,None
+QA0825,ALT00556,2026-04-08,R003,Rapid Movement of Funds,ANL10,ANL12,36.0,56,6,Close - Explained Activity,Pass,None
+QA0826,ALT02365,2026-07-16,R007,Cash Intensive Business,ANL09,ANL12,49.0,55,8,Close - False Positive,Pass,None
+QA0827,ALT00802,2026-05-24,R006,P2P Funnel Activity,ANL06,ANL12,59.0,47,2,Close - Explained Activity,Pass,None
+QA0828,ALT00137,2026-04-06,R007,Cash Intensive Business,ANL06,ANL12,53.0,40,10,Close - Explained Activity,Pass,None
+QA0829,ALT03528,2026-01-08,R004,Unusual Volume Increase,ANL08,ANL12,95.0,23,14,Close - False Positive,Pass,None
+QA0830,ALT02801,2026-06-21,R001,Structuring / Cash Activity,ANL01,ANL12,72.0,57,9,Escalate to Case,Pass,None
+QA0831,ALT01099,2026-06-13,R001,Structuring / Cash Activity,ANL05,ANL12,51.0,51,21,Close - False Positive,Pass,None
+QA0832,ALT00171,2026-08-12,R003,Rapid Movement of Funds,ANL03,ANL12,56.0,34,15,Escalate to Case,Pass,None
+QA0833,ALT01553,2026-02-14,R003,Rapid Movement of Funds,ANL03,ANL12,70.0,16,20,Close - Explained Activity,Pass,None
+QA0834,ALT02416,2026-01-02,R004,Unusual Volume Increase,ANL06,ANL12,37.0,31,8,Close - False Positive,Pass,None
+QA0835,ALT02042,2026-05-30,R001,Structuring / Cash Activity,ANL12,ANL12,67.0,45,16,Escalate to Case,Pass,None
+QA0836,ALT00922,2026-08-25,R001,Structuring / Cash Activity,ANL06,ANL12,49.0,50,12,Close - Explained Activity,Pass,None
+QA0837,ALT02664,2026-03-01,R008,Dormant Account Reactivation,ANL03,ANL12,32.0,56,17,Close - False Positive,Pass,None
+QA0838,ALT00220,2026-08-27,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,47.0,44,8,Close - False Positive,Pass,None
+QA0839,ALT02870,2026-02-04,R006,P2P Funnel Activity,ANL06,ANL12,83.0,40,11,Close - False Positive,Pass,None
+QA0840,ALT01667,2026-02-15,R005,High-Value Wire,ANL02,ANL12,64.0,33,4,Close - False Positive,Pass,None
+QA0841,ALT01648,2026-09-02,R004,Unusual Volume Increase,ANL03,ANL12,49.0,61,1,Escalate to Case,Pass,None
+QA0842,ALT00260,2026-04-24,R007,Cash Intensive Business,ANL03,ANL12,56.0,8,2,Escalate to Case,Pass,None
+QA0843,ALT02146,2026-01-22,R006,P2P Funnel Activity,ANL07,ANL12,79.0,48,5,Close - Explained Activity,Pass,None
+QA0844,ALT02299,2026-04-28,R006,P2P Funnel Activity,ANL12,ANL12,71.0,53,10,Close - Explained Activity,Pass,None
+QA0845,ALT02092,2026-08-21,R004,Unusual Volume Increase,ANL02,ANL12,33.0,44,6,Close - False Positive,Pass,None
+QA0846,ALT01729,2026-09-15,R002,High-Risk Jurisdiction Wire,ANL12,ANL12,55.0,29,10,Close - False Positive,Pass,None
+QA0847,ALT00789,2026-03-22,R002,High-Risk Jurisdiction Wire,ANL03,ANL12,63.0,21,6,Escalate to Case,Pass,None
+QA0848,ALT02326,2026-05-04,R007,Cash Intensive Business,ANL06,ANL12,54.0,31,7,Escalate to Case,Pass,None
+QA0849,ALT00614,2026-07-16,R001,Structuring / Cash Activity,ANL11,ANL12,8.0,29,9,Close - Explained Activity,Pass,None
+QA0850,ALT00999,2026-01-04,R004,Unusual Volume Increase,ANL08,ANL12,53.0,35,8,Escalate to Case,Pass,None
+QA0851,ALT01310,2026-04-23,R007,Cash Intensive Business,ANL04,ANL12,57.0,61,9,Escalate to Case,Pass,None
+QA0852,ALT03468,2026-04-23,R004,Unusual Volume Increase,ANL09,ANL12,54.0,35,5,Close - Explained Activity,Pass,None
+QA0853,ALT02204,2026-09-18,R002,High-Risk Jurisdiction Wire,ANL06,ANL12,58.0,40,8,Escalate to Case,Pass,None
+QA0854,ALT02738,2026-05-15,R007,Cash Intensive Business,ANL11,ANL12,50.0,45,4,Escalate to Case,Pass,None
+QA0855,ALT01571,2026-06-23,R005,High-Value Wire,ANL05,ANL12,83.0,41,4,Escalate to Case,Pass,None
+QA0856,ALT00699,2026-05-25,R007,Cash Intensive Business,ANL11,ANL12,82.0,28,24,Close - Explained Activity,Pass,None
+QA0857,ALT03169,2026-02-01,R006,P2P Funnel Activity,ANL05,ANL12,62.0,9,10,Close - Explained Activity,Pass,None
+QA0858,ALT00395,2026-02-01,R003,Rapid Movement of Funds,ANL03,ANL12,83.0,36,16,Close - False Positive,Pass,None
+QA0859,ALT01397,2026-05-03,R001,Structuring / Cash Activity,ANL03,ANL12,57.0,42,5,Close - False Positive,Pass,None
+QA0860,ALT02375,2026-04-30,R003,Rapid Movement of Funds,ANL10,ANL12,67.0,53,9,Close - Explained Activity,Pass,None
+QA0861,ALT00503,2026-05-23,R004,Unusual Volume Increase,ANL04,ANL12,43.0,29,2,Close - False Positive,Pass,None
+QA0862,ALT01424,2026-04-18,R001,Structuring / Cash Activity,ANL07,ANL12,77.0,42,29,Escalate to Case,Pass,None
+QA0863,ALT00624,2026-09-24,R003,Rapid Movement of Funds,ANL01,ANL12,73.0,26,16,Escalate to Case,Pass,None
+QA0864,ALT02101,2026-08-25,R005,High-Value Wire,ANL04,ANL12,43.0,38,14,Close - False Positive,Pass,None
+QA0865,ALT02857,2026-05-16,R001,Structuring / Cash Activity,ANL09,ANL12,67.0,33,14,Close - False Positive,Pass,None
+QA0866,ALT03523,2026-04-10,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,52.0,25,17,Escalate to Case,Pass,None
+QA0867,ALT01678,2026-01-13,R005,High-Value Wire,ANL07,ANL12,67.0,55,18,Close - Explained Activity,Pass,None
+QA0868,ALT01117,2026-07-16,R001,Structuring / Cash Activity,ANL06,ANL12,33.0,41,11,Escalate to Case,Pass,None
+QA0869,ALT01683,2026-05-16,R003,Rapid Movement of Funds,ANL03,ANL12,74.0,46,6,Escalate to Case,Fail,KYC Context Missing
+QA0870,ALT02202,2026-03-11,R008,Dormant Account Reactivation,ANL07,ANL12,38.0,42,8,Close - False Positive,Pass,None
+QA0871,ALT00474,2026-04-02,R004,Unusual Volume Increase,ANL11,ANL12,43.0,19,11,Close - False Positive,Pass,None
+QA0872,ALT01299,2026-07-20,R001,Structuring / Cash Activity,ANL01,ANL12,57.0,43,6,Close - False Positive,Pass,None
+QA0873,ALT01759,2026-08-29,R001,Structuring / Cash Activity,ANL03,ANL12,70.0,49,13,Close - False Positive,Pass,None
+QA0874,ALT00801,2026-01-01,R004,Unusual Volume Increase,ANL11,ANL12,58.0,43,7,Escalate to Case,Pass,None
+QA0875,ALT01680,2026-01-01,R002,High-Risk Jurisdiction Wire,ANL10,ANL12,77.0,46,1,Close - False Positive,Fail,KYC Context Missing
+QA0876,ALT03245,2026-03-25,R004,Unusual Volume Increase,ANL06,ANL12,49.0,21,20,Escalate to Case,Pass,None
+QA0877,ALT01750,2026-02-01,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,68.0,26,13,Close - False Positive,Pass,None
+QA0878,ALT02050,2026-08-29,R004,Unusual Volume Increase,ANL08,ANL12,57.0,48,7,Escalate to Case,Pass,None
+QA0879,ALT00719,2026-07-31,R003,Rapid Movement of Funds,ANL02,ANL12,81.0,41,3,Close - Explained Activity,Fail,Incomplete Transaction Review
+QA0880,ALT03490,2026-09-01,R008,Dormant Account Reactivation,ANL07,ANL12,71.0,39,8,Close - False Positive,Pass,None
+QA0881,ALT00835,2026-05-16,R006,P2P Funnel Activity,ANL10,ANL12,83.0,14,10,Escalate to Case,Pass,None
+QA0882,ALT00572,2026-02-15,R003,Rapid Movement of Funds,ANL04,ANL12,82.0,34,19,Close - Explained Activity,Pass,None
+QA0883,ALT02338,2026-05-26,R002,High-Risk Jurisdiction Wire,ANL07,ANL12,54.0,27,1,Close - False Positive,Pass,None
+QA0884,ALT00577,2026-08-08,R003,Rapid Movement of Funds,ANL08,ANL12,73.0,37,10,Close - False Positive,Pass,None
+QA0885,ALT00201,2026-03-05,R008,Dormant Account Reactivation,ANL03,ANL12,61.0,37,1,Close - Explained Activity,Pass,None
+QA0886,ALT00409,2026-06-26,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,64.0,39,9,Escalate to Case,Pass,None
+QA0887,ALT01262,2026-02-27,R004,Unusual Volume Increase,ANL04,ANL12,68.0,24,12,Escalate to Case,Pass,None
+QA0888,ALT01513,2026-05-09,R001,Structuring / Cash Activity,ANL03,ANL12,84.0,32,6,Close - False Positive,Fail,Disposition Not Supported
+QA0889,ALT00925,2026-08-21,R002,High-Risk Jurisdiction Wire,ANL04,ANL12,60.0,38,7,Close - Explained Activity,Pass,None
+QA0890,ALT01418,2026-07-15,R003,Rapid Movement of Funds,ANL09,ANL12,55.0,22,10,Escalate to Case,Pass,None
+QA0891,ALT01321,2026-09-28,R007,Cash Intensive Business,ANL04,ANL12,78.0,25,17,Escalate to Case,Pass,None
+QA0892,ALT02677,2026-05-06,R002,High-Risk Jurisdiction Wire,ANL05,ANL12,79.0,44,15,Close - Explained Activity,Pass,None
+QA0893,ALT00873,2026-05-08,R004,Unusual Volume Increase,ANL11,ANL12,97.0,47,3,Escalate to Case,Fail,Escalation Rationale Weak
+QA0894,ALT02446,2026-09-20,R002,High-Risk Jurisdiction Wire,ANL08,ANL12,53.0,39,6,Escalate to Case,Fail,KYC Context Missing
+QA0895,ALT02334,2026-05-19,R006,P2P Funnel Activity,ANL04,ANL12,78.0,41,6,Close - False Positive,Fail,Incomplete Transaction Review
+QA0896,ALT03147,2026-05-27,R003,Rapid Movement of Funds,ANL09,ANL12,86.0,46,20,Close - False Positive,Fail,Disposition Not Supported
+QA0897,ALT02943,2026-07-24,R001,Structuring / Cash Activity,ANL12,ANL12,67.0,31,9,Escalate to Case,Pass,None
+QA0898,ALT00009,2026-08-16,R001,Structuring / Cash Activity,ANL03,ANL12,91.0,57,3,Close - Explained Activity,Fail,Insufficient Narrative
+QA0899,ALT01709,2026-02-13,R004,Unusual Volume Increase,ANL03,ANL12,44.0,49,3,Escalate to Case,Pass,None
+QA0900,ALT03026,2026-02-16,R007,Cash Intensive Business,ANL04,ANL12,64.0,35,11,Close - False Positive,Pass,None

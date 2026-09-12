@@ -1,0 +1,9 @@
+rule_id,rule_name,channel_focus,logic_type,threshold_1,threshold_2,rule_status
+R001,Structuring / Cash Activity,Cash,Daily aggregation,8200.0,9800.0,Active
+R002,High-Risk Jurisdiction Wire,Wire,Transaction,15000.0,,Active
+R003,Rapid Movement of Funds,ACH/P2P/Wire,24-hour velocity,5.0,,Active
+R004,Unusual Volume Increase,All,Monthly behavior,3.0,,Active
+R005,High-Value Wire,Wire,Transaction,50000.0,,Active
+R006,P2P Funnel Activity,P2P,7-day aggregation,12.0,,Active
+R007,Cash Intensive Business,Cash,30-day behavior,0.35,,Active
+R008,Dormant Account Reactivation,All,Dormancy/reactivation,90.0,,Active
