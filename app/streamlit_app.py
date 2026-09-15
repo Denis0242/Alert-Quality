@@ -218,11 +218,10 @@ with tabs[2]:
 
 with tabs[3]:
     st.subheader("Tableau Gallery")
-    st.caption("Executive-facing views summarizing AML alert quality and rule performance.")
+    st.caption("Final Executive Dashboard aligned with the current processed datasets and verified KPI results.")
 
     images = [
-        ("01_kpi_scorecard.png", "KPI Scorecard"),
-        ("02_executive_dashboard.png", "Executive Dashboard"),
+        ("02_executive_dashboard.png", "AML Alert Quality, QA & Rule Performance — Final Executive Dashboard"),
     ]
 
     for filename, caption in images:
