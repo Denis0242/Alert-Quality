@@ -12,16 +12,23 @@ st.title("AML Alert Quality, QA & Rule Performance Analytics")
 
 with st.sidebar:
     st.header("Filters")
-    rules = st.multiselect(
-        "Rule",
-        sorted(A["rule_name"].dropna().unique()),
-        default=sorted(A["rule_name"].dropna().unique()),
-    )
-    dispositions = st.multiselect(
-        "Disposition",
-        sorted(A["disposition"].dropna().unique()),
-        default=sorted(A["disposition"].dropna().unique()),
-    )
+
+    rule_options = ["All"] + sorted(A["rule_name"].dropna().unique().tolist())
+    selected_rule = st.selectbox("Rule", rule_options)
+
+    disposition_options = ["All"] + sorted(A["disposition"].dropna().unique().tolist())
+    selected_disposition = st.selectbox("Disposition", disposition_options)
+
+rules = (
+    sorted(A["rule_name"].dropna().unique().tolist())
+    if selected_rule == "All"
+    else [selected_rule]
+)
+dispositions = (
+    sorted(A["disposition"].dropna().unique().tolist())
+    if selected_disposition == "All"
+    else [selected_disposition]
+)
 
 F = A[A["rule_name"].isin(rules) & A["disposition"].isin(dispositions)].copy()
 QF = Q[Q["rule_name"].isin(rules)].copy()
@@ -61,9 +68,30 @@ else:
         status = "Generally Stable"
         message = "QA quality and alert performance are generally stable across the selected rules."
 
-    s1, s2, s3 = st.columns([1.2, 1.0, 2.8])
-    s1.metric("Overall Status", status)
-    s2.metric("Rules Needing Review", f"{len(review_candidates):,}")
+    s1, s2, s3 = st.columns([1.7, 1.3, 2.8])
+
+    with s1:
+        st.markdown(
+            f"""
+            <div style="font-size:14px; margin-bottom:6px;">Overall Status</div>
+            <div style="font-size:28px; line-height:1.2; white-space:normal;">
+                {status}
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    with s2:
+        st.markdown(
+            f"""
+            <div style="font-size:14px; margin-bottom:6px;">Rules Needing Review</div>
+            <div style="font-size:28px; line-height:1.2;">
+                {len(review_candidates):,}
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
     s3.info(message)
 
     st.markdown(
