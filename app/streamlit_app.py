@@ -163,6 +163,8 @@ c6.metric("SAR Conversion", f"{sar_conversion:.1f}%")
 tabs = st.tabs([
     "Rule Performance",
     "QA Review",
+    "Alert Operations",
+    "Rule Review Candidates",
     "Portfolio Analytics",
     "Tableau Gallery",
 ])
@@ -210,6 +212,25 @@ with tabs[1]:
         )
 
 with tabs[2]:
+    st.subheader("Alert Operations")
+    st.caption("Operational view of the filtered alert population for investigation and workload review.")
+    sort_cols = [c for c in ["alert_age_days", "risk_score"] if c in F.columns]
+    alert_view = F.sort_values(sort_cols, ascending=False) if sort_cols else F
+    st.dataframe(alert_view.head(1000), use_container_width=True, hide_index=True)
+
+with tabs[3]:
+    st.subheader("Rule Review Candidates")
+    st.caption("Highlights monitoring rules that may require tuning or targeted review.")
+    if review_candidates.empty:
+        st.success("No selected rules currently require review beyond monitoring.")
+    else:
+        st.dataframe(
+            review_candidates.sort_values("tuning_priority_score", ascending=False),
+            use_container_width=True,
+            hide_index=True,
+        )
+
+with tabs[4]:
     st.subheader("Portfolio Analytics")
 
     st.caption(
@@ -244,7 +265,7 @@ with tabs[2]:
 
                 st.bar_chart(qa_chart)                
 
-with tabs[3]:
+with tabs[5]:
     st.subheader("Tableau Gallery")
     st.caption("Final Executive Dashboard aligned with the current processed datasets and verified KPI results.")
 
