@@ -1,5 +1,7 @@
 # AML Alert Quality, QA & Rule Performance Analytics
 
+**Live App:** [Streamlit](https://alert-quality-ymsnc2mqpfqvg58wtwxgce.streamlit.app)
+
 **AML / Transaction Monitoring Analytics Portfolio Project**
 
 An end-to-end AML quality-assurance and rule-performance analytics
@@ -52,31 +54,19 @@ decision support.
     controls without replacing governance review?
 
 ------------------------------------------------------------------------
-
 ## Data Model
 
-  ---------------------------------------------------------------------------
-  Dataset                                          Rows Purpose
-  ------------------------ ---------------------------- ---------------------
-  `alerts_enriched.csv`                           3,600 Alert-level AML
-                                                        monitoring and
-                                                        investigation
-                                                        outcomes
+The project uses five structured datasets covering alert investigations, QA reviews, rule performance, analyst information, and monitoring-rule configuration.
 
-  `qa_reviews.csv`                                  900 QA reviews and issue
-                                                        findings
+| Dataset | Rows | Purpose |
+|---|---:|---|
+| `alerts_enriched.csv` | **3,600** | Alert-level AML monitoring and investigation outcomes |
+| `qa_reviews.csv` | **900** | QA reviews and issue findings |
+| `rule_performance.csv` | **8** | Rule-level performance and tuning metrics |
+| `analysts.csv` | **12** | Analyst reference information |
+| `rules.csv` | **8** | Monitoring-rule logic, thresholds, and status |
 
-  `rule_performance.csv`                              8 Rule-level
-                                                        performance and
-                                                        tuning metrics
-
-  `analysts.csv`                                     12 Analyst reference
-                                                        information
-
-  `rules.csv`                                         8 Monitoring-rule
-                                                        logic, thresholds and
-                                                        status
-  ---------------------------------------------------------------------------
+---
 
 See [`docs/data_dictionary.md`](docs/data_dictionary.md) for field-level
 definitions and relationships.
@@ -163,22 +153,22 @@ See [`sql/`](sql/) for the complete SQL analysis.
 
 ## Verified Current KPIs
 
-  KPI                                      Current Result
-  ------------------------------------ ------------------
-  Total Alerts                                  **3,600**
-  QA Reviews                                      **900**
-  QA Pass Rate                                  **86.7%**
-  False Positives                               **1,973**
-  False-Positive Rate                           **54.8%**
-  Escalated Alerts                              **1,064**
-  Escalation Rate                               **29.6%**
-  SAR Cases                                       **147**
-  SAR Conversion of Escalated Alerts            **13.8%**
-  Total Alerted Amount                       **\$158.1M**
-  Avg. Review Time                       **37.9 minutes**
-  Avg. Alert Age                             **9.3 days**
+| KPI | Current Result |
+|---|---:|
+| Total Alerts | **3,600** |
+| QA Reviews | **900** |
+| QA Pass Rate | **86.7%** |
+| False Positives | **1,973** |
+| False-Positive Rate | **54.8%** |
+| Escalated Alerts | **1,064** |
+| Escalation Rate | **29.6%** |
+| SAR Cases | **147** |
+| SAR Conversion of Escalated Alerts | **13.8%** |
+| Total Alerted Amount | **$158.1M** |
+| Avg. Review Time | **37.9 minutes** |
+| Avg. Alert Age | **9.3 days** |
 
-------------------------------------------------------------------------
+---
 
 ## Key Findings
 
