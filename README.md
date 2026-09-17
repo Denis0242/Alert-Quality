@@ -1,8 +1,6 @@
 # AML Alert Quality, QA & Rule Performance Analytics
 
-**Live App:** [Streamlit](https://alert-quality-ymsnc2mqpfqvg58wtwxgce.streamlit.app)
-
-**AML / Transaction Monitoring Analytics Portfolio Project**
+### AML / Transaction Monitoring Analytics Portfolio Project
 
 An end-to-end AML quality-assurance and rule-performance analytics
 project using **Python, SQL, Tableau, and Streamlit** to evaluate alert
